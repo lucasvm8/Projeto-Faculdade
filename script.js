@@ -1,8 +1,7 @@
 const fs = require('fs');
 const pdf = require('pdf-parse');
-const selectFile = document.querySelector('texto')
 
-let pdffile = fs.readFileSync(selectFile)
+let pdffile = fs.readFileSync('XP.pdf')
 
 pdf(pdffile).then(function (data){
     console.log(data.text)
