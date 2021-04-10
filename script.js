@@ -1,8 +1,19 @@
 const fs = require('fs');
 const pdf = require('pdf-parse');
 
-let pdffile = fs.readFileSync('XP.pdf')
+let filePath = "XP.pdf"
 
-pdf(pdffile).then(function (data){
-    console.log(data.text)
-}) 
+async function readPdf(filePath) {
+  let pdffile = fs.readFileSync(filePath);
+  try {
+    return await pdf(pdffile), soma(2)
+  } catch (error) {
+      console.log(error)
+  }
+}
+
+function soma (a) {
+  return console.log(a)
+}
+
+readPdf(filePath)
