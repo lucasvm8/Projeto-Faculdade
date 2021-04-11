@@ -1,1 +1,1 @@
-# Aplica-o-TCC
+# Aplica
