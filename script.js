@@ -22,21 +22,19 @@ async function separarPalavras() {
   }
 }
 
-async function palavras(filePath) {
+async function palavras() {
   try {
     let data = await separarPalavras(filePath);
-    return console.log(
-      data.reduce((acc, curr) => {
-        acc[curr] = (acc[curr] || 0) + 1;
-        return acc;
-      }, {})
-    );
+    return data.reduce((acc, curr) => {
+      acc[curr] = (acc[curr] || 0) + 1;
+      return acc;
+    }, {});
   } catch (err) {
     console.log(err);
   }
 }
 
-async function topDezPalavras(filePath) {
+async function topDezPalavras() {
   try {
     let data = await palavras(filePath);
     return console.log(
