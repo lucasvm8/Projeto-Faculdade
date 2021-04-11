@@ -1,8 +1,8 @@
 const fs = require("fs");
 const pdf = require("pdf-parse");
 
-let filePath = "./XP.pdf";
-let pdfFile = fs.readFileSync(filePath);
+let filePath = "uploads/file.pdf";
+let pdfFile = fs.readFileSync("uploads/file.pdf");
 
 async function readPdf() {
   try {
