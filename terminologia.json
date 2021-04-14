@@ -1,18 +1,1763 @@
-
-[  
+[
     {
-        "nome" : "1",
-        "definition": "2"
+        "terminologia" : "100base−t",
+        "definition" : "Padrão de rede (IEEE 802.3u) também conhecido como Fast Ethernet que suporta taxas de transferência deaté 100 Mbit/s. Suporta diferentes tipos de cabeamento: par trançado de 4 e 8 fios e cabos de fibra óptica"
     },
 
     {
-        "nome": "3",
-        "definition": "asdsadas dhasd haksjh dkjash dkjahs dkjhas djhas djhas kdjha skjdh askjdh asjkhd kjash dkjahs dkjahs dkjha sdkjha sd4"
-    },
-
-    {
-        "nome": "5",
-        "definition": "6"
+        "terminologia" : "2b1q",
+        "definition" : "Two−Binary, One−Quaternary. Técnica de codificação de linha que comprime dois bits binários de dados emum único estado de quatro níveis."
     }
- 
+    ,
+
+    {
+        "terminologia" : "3des",
+        "definition" : "triple Data Encryption Standard. Protocolo de criptografia de chave única, amplamente usado. A versão 3 (triple) é considerada mais segura que a versão simpls (DES)."
+    },
+
+    {
+        "terminologia" : "3g",
+        "definition" : "Acrônimo usado para indicar a terceira geração da comunicação móvel, que amplia o uso do telefone celular. O objetivo é estabelecer bases para fornecer serviços de comunicação de dados em redes de telefonia celular, o que inclui o acesso à Internet. Espera−se que os dispositivos 3G sejam capazes de ter grande capacidade de comunicação (2Mbps), roaming global, transmissão de multimídia, etc."
+    },
+
+    {
+        "terminologia" : "@",
+        "definition" : "Este é o símbolo de arroba (medida de peso). Em inglês, o nome dado a ele é 'at'. Ele é usado para separar o nome do usuário e o nome do domínio em endereços de correio eletrônico."
+    },
+
+    {
+        "terminologia" : "abr",
+        "definition" : "Available Bit Rate. Taxa de bit disponível, que oferece uma capacidade mínima garantida e permite que os dados sejam transmitidos em rajadas quando a rede estiver livre. "
+    },
+
+    {
+        "terminologia" : "acesso",
+        "definition" : "Para poder acessar a Internet, é necessário ter uma conta de acesso com um provedor de Internet. Assim que você se cadastra no provedor, você recebe um nome de acesso (também conhecido como nome do usuário ou login) e uma senha. Além disso, o provedor fornecerá números de telefone para o qual você pode discar e se conectar, se a conexão estiver sendo feita por meio de modem."
+    },
+
+    {
+        "terminologia" : "acrobat",
+        "definition" : "Programa desenvolvido pela Adobe Systems para permitir a troca de documentos entre diversos sistemas como DOS, Windows, Unix, Linux e Macintosh. Permite que documentos criados em uma plataforma sejam apresentados e impressos em outras exatamente da mesma forma. Os documentos são convertidos para o formato PDF (Portable Data Format) que contém todas as informações sobre sua aparência."
+    },
+
+    {
+        "terminologia" : "acumulador ",
+        "definition" : "Registrador interno ao microprocessador que atua como uma memória auxiliar durante cálculos e movimentações de dados dentro do sistema. "
+    },
+
+    {
+        "terminologia" : "address",
+        "definition" : "É a localização de um site na Internet. É a única identificação que o usuário precisa para acessar um site na Web."
+    },
+
+    {
+        "terminologia" : "adsl",
+        "definition" : "É uma nova tecnologia que possibilita a transmissão de dados, em altas velocidades, utilizando cabos telefônicos comuns. O sistema trabalha com velocidades assimétricas, ou seja, diferentes em cada sentido, e, por essas características, promete facilitar a vida dos usuários de Internet."
+    },
+
+    {
+        "terminologia" : "agent",
+        "definition" : "Um programa de computador ou processo que opera sobre uma aplicação cliente ou servidor e realiza uma função específica, como uma troca de informações."
+    },
+
+    {
+        "terminologia" : "agp",
+        "definition" : "Refere−se ao adaptador de vídeo, que é o circuito responsável pela geração das imagens que aparecem no monitor. AGP (Accelerated Graphics Port) é uma conexão ponto a ponto de alta velocidade entre o chipset e o chip gráfico. A função da AGP é aumentar a qualidade, a velocidade e a interatividade de aplicações 3D."
+    },
+
+    {
+        "terminologia" : "ai",
+        "definition" : "Artificial Intelligence ou, Inteligência Artificial. Sistema de computação baseado em software e hardware que tenta reproduzir a inteligência e os comportamentos humanos. Atualmente os sistemas de inteligência artificial estão sendo produzidos para ajudar em técnicas de reconhecimento de voz, processamento de linguagem natural, reconhecimento de imagens, entre outras aplicações."
+    },
+
+    {
+        "terminologia" : "aix",
+        "definition" : "Advanced Interactive Executive. Versão IBM do Unix, que é executado em PCs, estações de trabalho e mainframes. Ele baseia−se no UNIX System V e é muito utilizado em grandes corporações nos seus servidores de rede."
+    },
+
+    {
+        "terminologia" : "algoritmo",
+        "definition" : "Um conjunto de passos ordenados para solução de um problema, como uma fórmula matemática ou instruções num programa. É o embrião de qualquer programa para computador, sendo o responsável por realizar todas as transformações necessárias a fim de se atingir um determinado objetivo."
+    },
+
+    {
+        "terminologia" : "alias",
+        "definition" : "Codinome ou Apelido. Um nome alternativo usado para identificação de pessoas em salas de chat da Internet, e que evita a necessidade das pessoas se identificarem com seus nomes reais. Pode também ser usado no lugar do e−mail de uma pessoa ou grupo. Por exemplo, ao invés de organizar uma lista de endereços eletrônicos com e−mail de cada um, você fornece um nome mais simples que identifique cada pessoa."
+    },
+
+    {
+        "terminologia" : "alocar",
+        "definition" : "Dividir, partilhar durante determinado tempo ou período de trabalho. Diz−se do sistema operacional (o Windows, por exemplo) quando este transfere parte da memória RAM para um programa poder executar suas funções."
+    },
+
+    {
+        "terminologia" : "alu",
+        "definition" : "Arithmetic−Logic Unit ou Unidade Lógica−Aritmética. Uma unidade lógica−aritmética é a parte do processador que cuida das operações lógicas e aritméticas nas instruções com operandos."
+    },
+
+    {
+        "terminologia" : "amps",
+        "definition" : "Advanced Mobile Phone System, Sistema Avançado de Telefonia Móvel. Abreviatura do sistema celular analógico adotado no Brasil, em outros países da América Latina, na Austrália, Nova Zelândia, em parte da Rússia e na Ásia. Nesse sistema de telefonia móvel, a área de cobertura é dividida em células para permitir o maior número de ligações simultâneas."
+    },
+
+    {
+        "terminologia" : "an",
+        "definition" : "Access Node. Uma conexão ou ponto de comutação na rede. Executa também vários tipos de conversão de protocolos."
+    },
+
+    {
+        "terminologia" : "anonymous ",
+        "definition" : "Normalmente utilizado para o login num servidor FTP, para indicar que se trata de um usuário não registrado em um serviço. A senha (password) a fornecer pode ser o próprio e−mail ou ser deixada em branco em alguns servidores."
+    },
+
+    {
+        "terminologia" : "ansi",
+        "definition" : "American National Standards Institute, ou Instituto Nacional Americano de Padrões. Trata−se de uma organização fundada em 1918 que coordena o desenvolvimento de padrões voluntários adotados internacionalmente, tanto nos setores privado como públicos. É o membro americano do ISO."
+    },
+
+    {
+        "terminologia" : "apache",
+        "definition" : "Servidor HTTP gratuito para várias plataformas. O Apache forma par perfeito com o Linux na Internet, dada a facilidade de ajuste que o código aberto de ambos oferece ao programador."
+    },
+
+    {
+        "terminologia" : "api",
+        "definition" : "Application Program Interface. Um formato de mensagem, usado por um programa para comunicar−se com um outro programa que fornece serviços para ele. Por exemplo, através das APIs do Windows é possível comunicar−se com o sistema operacional para acessar alguns recursos disponibilizados por ele."
+    },
+
+    {
+        "terminologia" : "aplicação",
+        "definition" : "Programa que faz uso de serviços de rede tais como transferência de arquivos, login remoto e correio eletrônico."
+    },
+
+    {
+        "terminologia" : "aplicativo",
+        "definition" : "Também chamado de Software Aplicativo. Software usado para realizar atividades específicas, tais como, contabilidade, processamento de textos, etc."
+    },
+
+    {
+        "terminologia" : "apm",
+        "definition" : "Advanced Power Management. Uma API da Intel e da Microsoft para computadores alimentados por bateria, que gerencia a energia enviando−a apenas no momento certo quando um dispositivo solicitar. Todo notebook utiliza este sistema para economizar energia, permitindo que as baterias resistam por mais tempo."
+    },
+
+    {
+        "terminologia" : "applescript",
+        "definition" : "Linguagem utilizada para escrever rotinas e automatizar tarefas cotidianas como a produção de cópias de segurança."
+    },
+
+    {
+        "terminologia" : "Applet",
+        "definition" : "Um pequeno aplicativo, como um programa utilitário ou uma planilha eletrônica com funções limitadas. O conceito ficou mais difundido com o surgimento da Internet através dos Applets Java que permitem executar programas implementados através da linguagem Java, remotamente nos navegadores da Internet."
+    },
+
+    {
+        "terminologia" : "archie",
+        "definition" : "Ferramenta de busca de arquivos armazenados em servidores FTP, por assunto, título ou palavra−chave. Para consultá−los, usa−se o Telnet ou envia−se comandos por e−mail."
+    },
+
+    {
+        "terminologia" : "arj",
+        "definition" : "Compactador de arquivos que está entre os mais conhecidos da categoria. Depois da consolidação do Windows, perdeu espaço para os programas baseados no sistema ZIP, que adotaram primeiro a interface gráfica. Hoje o ZIP é um padrão de fato, largamente usado na Internet."
+    },
+
+    {
+        "terminologia" : "arpnet",
+        "definition" : "Advanced Research Projects Agency NETwork. Rede de computadores usada para pesquisa fundada pela ARPA (Advanced Research Projects Agency, atualmente Defense Advanced Projects Research Agency, ou DARPA), a agência do governo americano para pesquisa de novas tecnologias, em 1969. Foi o embrião da Internet. Pioneira na tecnologia de comutação de pacotes, foi estruturada originalmente em laboratório e depois virou a Internet. Foi colocada fora de operação em 1990, posto que estruturas alternativas de redes já cumpriam seu papel nos EUA. "
+    },
+
+    {
+        "terminologia" : "arquivo",
+        "definition" : "Coleção de informações a serem armazenadas identificadas por um nome próprio."
+    },
+
+    {
+        "terminologia" : "artg",
+        "definition" : "Allowable Resistance To Ground for operator´s skin, é a máxima resistência permitida entre o terra e a pele de um técnico ou operador. Para componentes sensíveis a ESD na faixa de 100 V, o valor será de 10 Mohms."
+    },
+
+    {
+        "terminologia" : "article",
+        "definition" : "Qualquer mensagem enviada para os grupos de discussão (newsgroups)."
+    },
+
+    {
+        "terminologia" : "ascii",
+        "definition" : "American Standard Code for Information Interchange. Pronuncia−se 'aski'. Nada mais do que um código binário para texto, bem como para comunicações e controle da impressora. Usado na maioria das comunicações, é o código de caracteres padronizado nos computadores pessoais. ASCII é um código de 7 bits que fornece 128 combinações de caracteres. No PC existe o ASCII Estendido que utiliza os outros 128 códigos disponíveis para símbolos gráficos e línguas diferentes do inglês. "
+    },
+
+    {
+        "terminologia" : "asp",
+        "definition" : "Active Server Page. Tecnologia da Microsoft criada para fazer uma combinação simples de HTML, JavaScript e ActiveX. Permite desenvolver páginas HTML da Internet com vários scripts que são processados num servidor de Internet da Microsoft, o IIS. Depois do servidor ASP processar os scripts é gerada uma página HTML que em seguida é enviada para o usuário que estiver conectado ao site e utilizando os serviços disponibilizados."
+    },
+
+    {
+        "terminologia" : "assinatura",
+        "definition" : "Informação que autentica uma mensagem"
+    },
+
+    {
+        "terminologia" : "aterramento",
+        "definition" : "Ato de ligar à terra um equipamento ou parte dele, com função de proteção contra choques e sobretensões."
+    },
+
+    {
+        "terminologia" : "atm",
+        "definition" : "Asynchronous Transfer Mode ou Modo de Transferência Assíncrona. Trata−se de uma tecnologia de rede de comutação de célula, utilizada em redes de computadores de alta velocidade, que lida com dados, voz e vídeo. Combina a alta eficiência da comutação de pacotes usada em redes com a largura de faixa garantida das redes de voz, como a telefônica. Pode ser implementada com fibra ótica ou com cabo par trançado."
+    },
+
+    {
+        "terminologia" : "attach",
+        "definition" : "Arquivo que segue pela rede anexado ao e−mail. Você pode anexar qualquer tipo de arquivo ao seu e−mail utilizando a opção 'Attachment' do seu software de correio eletrônico."
+    },
+
+    {
+        "terminologia" : "aui",
+        "definition" : "Attachment Unit Interface. O nome usado pela norma IEEE 802.3 para o dispositivo que é conectado na unidade de mídia de 10 Mb/s. Este dispositivo é equipado com um conector de 15 pinos. O conector de 15 pinos deste dispositivo em anexo é também chamado de conector AUI."
+    },
+
+    {
+        "terminologia" : "aup",
+        "definition" : "Acceptable Use Policy. Regras de boa conduta para a utilização correta da rede e seus serviços. Pode ser um documento distribuído ao novo utilizador de um determinado sistema."
+    },
+
+    {
+        "terminologia" : "avi",
+        "definition" : "Audio Video Interactive. Formato de arquivo de vídeo desenvolvido pela Microsoft e que é utilizado no Windows. "
+    },
+
+    {
+        "terminologia" : "b2b",
+        "definition" : "Business−to−Busines. Transações comerciais conduzidas através de redes públicas ou privadas, incluindo transações públicas e privadas que usam a Internet como veículo de realização. Essas transações incluem transferências financeiras, leilões, distribuição de produtos e serviços, atividades de cadeias de suprimento e redes integradas de empresa. "
+    },
+
+    {
+        "terminologia" : "b2c",
+        "definition" : "Business−to−Consumer. Descreve as transações entre uma empresa e o consumidor final, através da Internet."
+    },
+
+    {
+        "terminologia" : "backbone",
+        "definition" : "Em redes de computadores, é a parte que trata do tráfego principal. É a espinha dorsal do sistema inteiro de comunicação interligando os principais pontos de cada rede entre si. O Backbone da Internet transmite uma grande quantidade de dados."
+    },
+
+    {
+        "terminologia" : "backup",
+        "definition" : "Cópia de segurança de arquivos, geralmente mantida em disquetes, fitas magnéticas ou CD−R, que permitem o resgate de informações importantes ou programas em caso de falha do disco rígido. Também denomina equipamentos de reserva usados na substituição de um equipamento quebrado."
+    },
+
+    {
+        "terminologia" : "baixar",
+        "definition" : "Download. Processo de transferência de arquivos de um computador remoto para o seu através de modem e programa específico."
+    },
+
+    {
+        "terminologia" : "banda",
+        "definition" : "Designa uma faixa de freqüência delimitada no espectro magnético. Para evitar interferência entre os sinais, é reservada uma banda para cada tipo de serviço de telecomunicação."
+    },
+
+    {
+        "terminologia" : "bandwidth",
+        "definition" : "Largura de banda. Trata−se da capacidade de transmissão de um canal de computador, linha de comunicações, bus ou rede de computadores. É expressa em ciclos por segundo (Hertz), sendo que a largura de banda é a diferença entre a mais alta e a mais baixa freqüência transmitida pelo canal ou meio em referência."
+    },
+
+    {
+        "terminologia" : "banner",
+        "definition" : "Imagem, animada ou não, utilizada em sites para efeitos de publicidade. Geralmente ao clicar−se no dito banner vai−se ao endereço referente ao produto/serviço que está a ser divulgado."
+    },
+
+    {
+        "terminologia" : "bash",
+        "definition" : "Acrônimo de Bourne Again SHell, é um programa para Unix que interpreta as linhas de comando dadas pelo usuário ou por um arquivo e os executa."
+    },
+
+    {
+        "terminologia" : "basic",
+        "definition" : "Beginners All purpose Symbolic Instruction Code. Uma linguagem de programação desenvolvida em meados da década de 60. Originalmente desenvolvida como uma linguagem interativa de computadores de grande porte. Tornou−se uma linguagem bastante usada em micros pequenos."
+    },
+
+    {
+        "terminologia" : "batch",
+        "definition" : "Em um computador, uma tarefa batch é um programa que determinado computador roda sem promover a interação do usuário. Exemplos de tarefas batch em um PC são a requisição de impressão ou uma análise de log de website. Em computadores de escala comercial ou servidores, tarefas batch são usualmente iniciadas por um usuário do sistema. Alguns são definidos para rodar automaticamente em um tempo determinado. Em alguns sistemas de computadores, tarefas batch são feitas para rodar em background e programas interativos rodam em primeiro plano."
+    },
+
+    {
+        "terminologia" : "baud",
+        "definition" : "Quantidade de informações que são transferidas entre dois computadores interligados."
+    },
+
+    {
+        "terminologia" : "bss",
+        "definition" : "Bulletin Board System. Um sistema de computador usado como fonte de informações e mensagens para um grupo de usuários associados, que geralmente pagavam uma mensalidade. Fez muito sucesso até o surgimento da Internet. Os usuários através de um modem discavam para a BBS, e pelo programa terminal acessavam arquivos, mensagens e serviços."
+    },
+
+    {
+        "terminologia" : "bcc",
+        "definition" : "Blind Carbon Copy ou Cópia de Carbono Oculta (CCO). Funciona como a cópia CC, mas os destinatários não têm acesso aos e−mails dos demais. Ideal para quem deseja enviar malas diretas, mantendo−a em sigilo."
+    },
+
+    {
+        "terminologia" : "binhex",
+        "definition" : "Um formato de codificação usado no Mac. Os arquivos BinHex possuem usualmente o sufixo HQX e podem ser decodificados com o StuffIt Expander (disponível para Mac e para Windows), da Aladdin Systems, em http://www.aladdinsys.com/. O Eudora pode tratar anexos BinHex, mas a maioria dos demais programas de correio para PC somente mostram uma tela cheia de caracteres malucos."
+    },
+
+    {
+        "terminologia" : "bioapi",
+        "definition" : "Interface para programção de aplicações biométricas. Desenvolvida pelo BioAPI COnsortium (www.bioapi.org), está na versão 1.1 e é um padrão aprvado pelo ANSI e pelo The InterNational Committee for Information Technology Standards (Incits). O BioAPI Consortium também funciona como organismo que certifica produtos compatíveis com o padrão."
+    },
+
+    {
+        "terminologia" : "bios",
+        "definition" : "Basic Input/Output System. Trata−se de um programa com instruções detalhadas que ativam dispositivos periféricos no momento do boot do computador. Atualmente, o termo refere−se geralmente à ROM BIOS de um PC, que muitas vezes contém até parte do sistema operacional."
+    },
+
+    {
+        "terminologia" : "bit",
+        "definition" : "Binary digit. Unidade básica de informação no sistema binário de numeração. É a menor unidade de informação utilizada em informática. Corresponde a 0 (zero) ou 1 (um), ligado/desligado, presença/ausência, etc."
+    },
+
+    {
+        "terminologia" : "bitchx",
+        "definition" : "O mais popular cliente de IRC para Unix aproveita todos os recursos de bate−papo e ainda permite destacar os participantes com cores."
+    },
+
+    {
+        "terminologia" : "bitnet",
+        "definition" : "Because It's Time Network. Rede mundial acessável pela Internet com características educacionais."
+    },
+
+    {
+        "terminologia" : "bluetooth",
+        "definition" : "Tecnologia lançada com o objetivo de eliminar a necessidade de fios e cabos na conexão de aparelhos portáteis com a Internet e desses aparelhos entre si. Entre as empresas que definiram a especificação Bluetooth 1.0 estão Ericsson, Nokia, IBM, Intel e Toshiba, o Bluetooth Special Interest Group."
+    },
+
+    {
+        "terminologia" : "bpm",
+        "definition" : "Bit MaP ou Mapa de Bits. Um formato de arquivo gráfico do Windows para imagens, que são codificadas para serem interpretadas por uma ampla variedade de telas e impressoras."
+    },
+
+    {
+        "terminologia" : "bookmark",
+        "definition" : "Marcador. Exatamente como um índice, um bookmark é o lugar onde ficam anotados os links de endereços ou sites na Internet. São usados normalmente para gravar um site para o qual você quer retornar ou algum que você visita regularmente."
+    },
+
+    {
+        "terminologia" : "boot",
+        "definition" : "Nome dado para a operação de acionamento de um computador para fazer com que ele comece a funcionar e possa executar programas ou carregar um sistema operacional."
+    },
+
+    {
+        "terminologia" : "bps",
+        "definition" : "Bits per second, bits por segundo. É a medida padrão para a velocidade de transmissão de dados. Linhas telefônicas tradicionais transmitem a uma capacidade máxima de 56 kbps. Entretanto, novas tecnologias de transmissão de dados, como linhas digitais e conexões por fibra ótica superam esse limite."
+    },
+
+    {
+        "terminologia" : "bri",
+        "definition" : "Basic Rate Interface. Um serviço de assinaturas ISDN que usa dois canais B e um canal D para transmitir sinais de voz, vídeo e dados."
+    },
+
+    {
+        "terminologia" : "bridge",
+        "definition" : "Um dispositivo que conecta dois segmentos de rede local, os quais podem ter tipos semelhantes ou não, tais como Ethernet e Token Ring. Os bridges são inseridos numa rede para melhorar o desempenho, mantendo o tráfego dentro de segmentos menores."
+    },
+
+    {
+        "terminologia" : "broadband ",
+        "definition" : "Método de transmissão de dados que permite a cada mídia (cabeamento) transportar diversos canais ao mesmo tempo."
+    },
+
+    {
+        "terminologia" : "broadcast",
+        "definition" : "Dispersão. Enviar a mesma mensagem para um grande número de pessoas diferentes. Há razões sérias e legítimas para se fazer isto: você pode querer informar todos os seus amigos que está se mudando, por exemplo. Entretanto, a dispersão é mais usada para transmitir mensagens inúteis."
+    },
+
+    {
+        "terminologia" : "browser",
+        "definition" : "Também chamado navegador, é o programa que permite ao usuário ver as páginas da Internet."
+    },
+
+    {
+        "terminologia" : "bsd",
+        "definition" : "Berkeley Software Distribution Unix. Uma versão Unix desenvolvida pela Computer Systems Research Group da Universidade da Califórnia em Berkeley, desde 1979. É distribuído livremente, como o Linux, e atualmente é o maior concorrente do sistema na área dos sistemas abertos."
+    },
+
+    {
+        "terminologia" : "buffer",
+        "definition" : "Uma área de armazenamento temporário, usualmente na RAM. O propósito da maioria dos buffers é agir como uma área proprietária, habilitando a CPU a manipular os dados antes de transferí−los para um dispositivo.Por causa dos processos de leitura e escrita de dados no disco serem relativamente lentos, muitos programas guardam os dados modificados em um buffer e depois os copiam do buffer para o disco."
+    },
+
+    {
+        "terminologia" : "bug",
+        "definition" : "Erro em algum programa ou arquivo."
+    },
+
+    {
+        "terminologia" : "Bus",
+        "definition" : "Barramento. Um caminho comum, ou canal, entre dispositivos múltiplos. Um bus é sempre designado para anexar dispositivos múltiplos, ao contrário das portas seriais que conectam apenas um dispositivo de cada vez."
+    },
+
+    {
+        "terminologia" : "barramento",
+        "definition" : "Em arquitetura de computadores, barramento é um conjunto de linhas de comunicação que permitem a interligação entre dispositivos, como a CPU, a memória e outros periféricos."
+    },
+
+    {
+        "terminologia" : "byte",
+        "definition" : "A unidade comum de armazenamento em computadores. É o átomo da informática. Composto por 8 bits, cada byte pode representar até 256 símbolos diferentes, como letras ou números."
+    },
+
+    {
+        "terminologia" : "c",
+        "definition" : "Linguagem de programação de alto nível que pode manipular o computador em baixo nível, como a linguagem Assembly. Durante a segunda metade da década de 1980, a linguagem C tornou−se a preferida para o desenvolvimento de software comercial." 
+    },
+
+    {
+        "terminologia" : "c++",
+        "definition" : "Uma versão orientada a objetos da linguagem C, criada por Bjarn Stroustrup. C++ tornou−se popular porque combina a programação C tradicional com a orientação a objetos."
+    },
+
+    {
+        "terminologia" : "ca",
+        "definition" : "Computer Associates. A maior empresa de desenvolvimento de software diversificado do mundo, oferecendo mais de 350 produtos diferentes. Foi fundada em 1976. Tornou−se famosa por seus antivírus."
+    },
+
+    {
+        "terminologia" : "cabeamento",
+        "definition" : "É o conjunto de fios que ligam as máquinas e por onde passam os dados."
+    },
+
+    {
+        "terminologia" : "cabeçalho",
+        "definition" : "A seção no topo (ou no final, dependendo do software) de uma mensagem que indica quem a enviou, quando foi enviada, por onde passou pelo caminho e assim por diante. Alguns programas ocultam o cabeçalho, mas deve haver uma opção para apresentá−lo em parte ou totalmente."
+    },
+
+    {
+        "terminologia" : "coaxial",
+        "definition" : "Consiste num fio de cobre revestido e cercado por um segundo revestimento de cobre trançado. Tal proteção minimiza as interferências elétricas e magnéticas. É amplamente utilizado nas redes de televisão a cabo e também nas redes de computadores."
+    },
+
+    {
+        "terminologia" : "trançado",
+        "definition" : "Também conhecido como UTP (Unshield Twisted Pair ou Par Trançado Não−blindado), é um cabo maleável, permeável a ruídos e interferências, mas fácil de instalar. É composto por pares de fios isolados uns dos outros e trançados juntos dentro de um revestimento. A trança proporciona uma blindagem ineficaz em ambientes de intensa radiação elétrica, mas que funciona perfeitamente na maioria dos casos."
+    },
+
+    {
+        "terminologia" : "cache",
+        "definition" : "(1) Geralmente a palavra cache se refere a uma porção de memória. Os browsers possuem um cache próprio onde colocam as últimas imagens e páginas html visualizadas. O espaço que a memória cache do browser ocupa no disco rígido do computador pode ser configurado. (2) Tipo de memória presente nos computadores que agiliza a realização das operações mais freqüentes."
+    },
+
+    {
+        "terminologia" : "cad",
+        "definition" : "Computer−Aided Design ou Projeto Auxiliado por Computador. Termo usado para a tarefa de utilizar o computador para projetar produtos. Os sistemas CAD são estações de trabalho ou computadores pessoais de alta velocidade usando softwares CAD como o AutoCAD e dispositivos de entrada e saída especiais."
+    },
+
+    {
+        "terminologia" : "cap",
+        "definition" : "Carrierless Amplitude &Phase modulation. Tecnologia de transmissão que recebe e transmite sinais modulados em duas bandas largas e que usa técnicas de modulação passa−banda."
+    },
+
+    {
+        "terminologia" : "cbefff",
+        "definition" : "Iniciais de Common Biometric Exchange File Format. Especificação para um formato de arquivo para a troca de informações biométricas, foi desenvolvida pelo órgão americano National Institute of Standards and technology (Nist). A CBEFF também é chamada de Nistir 6529."
+    },
+
+    {
+        "terminologia" : "cbr",
+        "definition" : "Constant Bit Rate. Taxa de bit constante, na qual os dados são transmitidos com uma cadência fixa."
+    },
+
+    {
+        "terminologia" : "cc",
+        "definition" : "Carbon Copy ou Cópia de Carbono. Além do destinatário original, uma cópia da mensagem será enviada para o e−mail que for preencher esta lacuna no cabeçalho do e−mail, na hora de sua edição."
+    },
+
+    {
+        "terminologia" : "ccd",
+        "definition" : "Charge Coupled Device, ou Dispositivo de Carga Emparelhada. Uma matriz de transistores sensíveis a luz que passam sinais elétricos para a câmenra dependendo da quantidade de luz que chega até eles. É utilizada em câmeras digitais e scanners para digitalizar imagens."
+    },
+
+    {
+        "terminologia" : "cdma",
+        "definition" : "Code Division Multiple Access, ou Acesso Múltiplo por Divisão de Código. É um dos padrões utilizados nas redes digitais de telefonia móvel. Usa uma técnica de espalhamento espectral que consiste na utilização de toda a largura da banda do canal para transmissão."
+    },
+
+    {
+        "terminologia" : "cern",
+        "definition" : "Conseil Européen pour la Recherche Nucléaire ou Conselho Europeu para a Pesquisa Nuclear. Um dos mais importantes centros mundiais de pesquisas avançadas em Física Nuclear e de Partículas, localizado em Genebra, Suiça. Um de seus pesquisadores, Tim Berners−Lee, foi o inventor, em 1989, do HTTP, o protocolo usado na WWW para transferir arquivos HTML."
+    },
+
+    {
+        "terminologia" : "cert",
+        "definition" : "Computer Emergency Response Team. Organização criada em 1988 que oferece serviços de consulta para usuários da Internet e que entra em ação sempre que um novo vírus e outras ameaças aos computadores são descobertas."
+    },
+
+    {
+        "terminologia" : "cgi",
+        "definition" : "Common Gateway Interfaces. São programas que permitem comunicação e interação entre dois computadores numa rede. Quando você preenche um formulário num site, um CGI é responsável por capturar as informações e passar para o servidor processá−las. O programa pode ser escrito em qualquer linguagem de programação, incluindo C, Perl, Java ou Visual Basic."
+    },
+
+    {
+        "terminologia" : "chap",
+        "definition" : "Challenge Handshake Authentication Protocol. É outro protocolo de autenticação de usuário do PPP. Esse protocolo implementa criptografia na transmissão da senha."
+    },
+
+    {
+        "terminologia" : "chat",
+        "definition" : "Bate−papo online, utilizando canais de IRC (Internet Relay Chat) ou programas da World Wide Web."
+    },
+
+    {
+        "terminologia" : "chooser",
+        "definition" : "Também conhecido como Seletor, é um acessório do sistema operacional que garante o acesso às impressoras e, quando o micro está ligado em rede, aos arquivos ou aos servidores disponíveis."
+    },
+
+    {
+        "terminologia" : "cio",
+        "definition" : "Chief Information Officer. Nome do cargo dado a pessoa responsável pela administração das informações e tomadas de decisões para a área de tecnologia da informação. Outro termo é CEO (Chief Executive Officer) usado para o 'grande chefe' da empresa. Bill Gates é o CEO da Microsoft."
+    },
+
+    {
+        "terminologia" : "clec",
+        "definition" : "Competitive Local Exchange Carrier ou Competitive Local Exchange Company. Companhia telefônica que compete com uma ILEC, oferecendo serviços de telecomunicação. Expandiram−se muito após as mudanças no sistema de telecomunicações norte−americano acontecidas em 1996."
+    },
+
+    {
+        "terminologia" : "cliente",
+        "definition" : "Na Internet, os computadores que utilizam recursos fornecidos pela base de dados de outro computador, denominado servidor."
+    },
+
+    {
+        "terminologia" : "clock",
+        "definition" : "Relógio. Circuito eletrônico capz de gerar pulsos em velocidades de alguns ciclos por segundo até milhões de ciclos por segundo. Usado com a unidade de medida Hz (Hertz)."
+    },
+
+    {
+        "terminologia" : "codificação ",
+        "definition" : "O sistema de correio da Net foi projeto para o simples texto ASCII de 7 bits em porções digeríveis, de forma que qualquer outra coisa que se queira anexar às mensagens (como figuras, documentos e arquivos de programas) terá de ser convertido em um formato compatível. Este processo é chamado de codificação. Há três formatos comuns de codificação: UUEncode, MIME/base 64 e BinHex. Todos eles transformam os arquivos em seqüências ininteligíveis de caracteres que passam confortavelmente pela Net e podem transformar estas seqüências de volta em um arquivo binário totalmente operacional."
+    },
+
+    {
+        "terminologia" : "colisão",
+        "definition" : "Quando o computador precisa enviar alguma informação, ele verifica se a linha está ocupada naquele momento; se estiver muda, ele faz a transmissão de seus pulsos elétricos. Se dois computadores enviam os pulsos elétricos ao mesmo tempo, ocorre uma colisão. Neste momento os dois se calam por um tempo e reiniciam a transmissão. As redes Ethernet funcionam assim."
+    },
+
+    {
+        "terminologia" : "colorsync",
+        "definition" : "Sistema de controle de cores criado pela Apple para permitir calibração e padronização das cores utilizadas na tela."
+    },
+
+    {
+        "terminologia" : "command",
+        "definition" : "Equivalente à tecla Control do PC, a tecla Command − que exibe a figura de uma maçã − serve para acionar comandos e funções especiais. Para capturar uma imagem na tela, por exemplo, basta pressionar a combinação de teclas Command, Shift e a tecla do número 3."
+    },
+
+    {
+        "terminologia" : "compressão",
+        "definition" : "Normalmente, os softwares para compressão de dados contêm duas partes − uma para compactar e a outra para descompactar. O conhecido programa PKZip, por exemplo, tem seu irmão gêmeo, o PKUnzip. No entanto, com o predomínio das interfaces gráficas, a existência dos dois módulos se torna imperceptível, uma vez que o mesmo programa é usado para as duas operações."
+    },
+
+    {
+        "terminologia" : "conduit",
+        "definition" : "São como extensões (plug−ins) do HotSync Manager de PDAs da Palm. Eles servem para enviar e receber dados do Palm para diferentes aplicativos. Geralmente cada aplicativo tem o seu próprio conduit."
+    },
+
+    {
+        "terminologia" : "conta",
+        "definition" : "Indispensável para entrar em vários sistemas, como o Linux, o Solaris e até o Windows 2000, a conta é criada pelo administrador do sistema. Combina o nome de acesso do usuário com a sua senha."
+    },
+
+    {
+        "terminologia" : "cookies",
+        "definition" : "Os cookies são arquivos texto (.txt) enviados pelo servidor web para os browsers que visitam suas páginas. O cookie é armazenado pelo browser e é ativado toda vez que a página que o gerou é acessada. Os cookies servem para informar aos servidores web quantas vezes uma mesma página é acessada pelo mesmo browser. Pode servir também para ativar páginas customizadas para um usuário."
+    },
+
+    {
+        "terminologia" : "cooler",
+        "definition" : "Esfriador. É um pequeno ventilador colocado sobre processadores ou chipsets para resfriá−los, geralmente acoplado a um dissipador de metal."
+    },
+
+    {
+        "terminologia" : "copyleft",
+        "definition" : "O oposto de copyright. É a permissão para copiar livremente o software que foi criado inicialmente pela Free Software Foundation. O Linux está protegido pela lei de copyleft."
+    },
+
+    {
+        "terminologia" : "corba",
+        "definition" : "Common ORB Architecture. Um padrão ORB endossado pelo OMG (Object Management Group). Um ORB do CORBA é o software que lida com a comunicação das mensagens entre os objetos num ambiente distribuído ou multiplataforma de forma padrão."
+    },
+
+    {
+        "terminologia" : "cpa",
+        "definition" : "Central por Programa Armazenado. Centrais telefônicas com sistemas digitais controlados por computadores de alta capacidade de processamento, cujos terminais são os telefones."
+    },
+
+    {
+        "terminologia" : "cps",
+        "definition" : "Caracter por segundo. Unidade de medida utilizada para medir velocidade de impressão. Muito usual também é a ppm."
+    },
+
+    {
+        "terminologia" : "cracker",
+        "definition" : "É um indivíduo que tenta acessar sistemas de computadores sem autorização. Geralmente é malicioso, e ao contrário do hacker ele tem sempre uma segunda intenção quando quebra o sistema."
+    },
+
+    {
+        "terminologia" : "cradle",
+        "definition" : "Berço. É a base em que um PDA da Palm é colocado para realizar o HotSync e/ou carregar a bateria (quando o modelo possuir bateria recarregável). Fica ligado ao computador desktop por um cabo serial ou USB."
+    },
+
+    {
+        "terminologia" : "criptografia",
+        "definition" : "Técnica para codificar mensagens ou arquivos, tornando−os invioláveis e permitindo que apenas sejam decodificados por seus destinatários."
+    },
+
+    {
+        "terminologia" : "crm",
+        "definition" : "Customer Relationship Management. CRM é uma estratégia de negócio voltada ao entendimento e antecipação das necessidades dos clientes atuais e potenciais de uma empresa."
+    },
+
+    {
+        "terminologia" : "crosstalk",
+        "definition" : "Tendência do sinal de um par de fios ser induzido por um par adjacente."
+    },
+
+    {
+        "terminologia" : "crt",
+        "definition" : "Abreviação de Cathode−Ray Tube, tubo de raios catódicos. A tecnologia usada na maioria dos televisores e monitores de computador. Um CRT trabalha movendo um feixe de eletróns de um lado para outro pela parte de trás da tela. Cada vez que o feixe faz uma passagem pela tela, ilumina pontos fosforescentes no lado de dentro do tubo de vidro, iluminando assim porções ativas da tela. Desenhando muitas linhas do topo ao fim da tela, ele cria uma tela cheia de imagens."
+    },
+
+    {
+        "terminologia" : "csma",
+        "definition" : "Método de controle de acesso utilizado em redes locais Ethernet."
+    },
+
+    {
+        "terminologia" : "CSS",
+        "definition" : "Cascading Style Sheets. Folhas de Estilo em Cascata. É uma especificação da HTML desenvolvida pelo (World Wide Web Consortium) que permite aos usuários e autores de documentos HTML anexar folhas de estilo a esses documentos. As folhas de estilo contêm informações tipográficas sobre como a página será apresentada, tais como a fonte do texto contido na página. "
+    },
+
+    {
+        "terminologia" : "customizar",
+        "definition" : "Personalizar, ajustar. Modificar ou configurar produtos de hardware ou software de modo que se tornem mais adequados às necessidades ou preferências do usuário."
+    },
+
+    {
+        "terminologia" : "cyberspace",
+        "definition" : "Ciberespaço. O mundo virtual criado com a Internet e todas as suas possibilidades digitais, como troca de informações, imagens, som e vídeo. O termo foi usado pela primeira vez no romance 'Neuromancer', do escritor William Gibson. "
+    },
+
+    {
+        "terminologia" : "dacs",
+        "definition" : "Digital Access &Cross−connect System. Dispositivo que permite que canais DS0 sejam individualmente roteados e reconfigurados."
+    },
+
+    {
+        "terminologia" : "dados",
+        "definition" : "(1) Em telecomunicações, significa informação convertida para o modo digital, em oposição a informação em modo analógico, como as chamadas telefônicas de voz convencionais. (2)São informações a serem processadas em um processo qualquer."
+    },
+
+    {
+        "terminologia" : "daemon",
+        "definition" : "Tipo de programa de espera em segundo plano para Unix que realiza operações em períodos pré−definidos ou em resposta a determinados eventos. A fila de espera da impressora é um típico processo daemon, o esperto demônio que ficava à espreita de boas almas, pinçado pelos programadores de Unix na mitologia grega."
+    },
+
+    {
+        "terminologia" : "warehouse",
+        "definition" : "Armazém de dados. É um sistema que guarda e organiza todas as informações que estão espalhadas por vários sistemas dentro de uma empresa. Com ele, os executivos podem obter informações sobre tudo e todos."
+    },
+
+    {
+        "terminologia" : "db2",
+        "definition" : "Sistema de gerenciamento de banco de dados desenvolvido pela IBM. Possibilita a criação e gerenciamento de bancos de dados de alto desempenho e capacidade, com ferramentas para diversos sistemas operacionais e Internet."
+    },
+
+    {
+        "terminologia" : "defacement",
+        "definition" : "Do inglês deface, que significa desfigurar. Usa−se defacement em referência a uma determinada atividade dos hackers (piratas da Internet), em que a página do site atacado é modificada, 'desfigurada' pelo invasor. Os defacements mais comuns são páginas de fundo branco com frases escritas. Outros hackers, mais criativos, deixam desenhos, figuras e outras mensagens."
+    },
+
+    {
+        "terminologia" : "desfragmentação",
+        "definition" : "Processo que consiste em rearranjar os arquivos gravados num disco de tal modo que cada um deles ocupe áreas contínuas. Diferentemente das faixas de um disco musical, os arquivos num winchester ou disquete podem estar fragmentados em muitos pedaços. Um nível de fragmentação muito alto compromete o desempenho do sistema, já que a cabeça de leitura do disco precisa movimentar−se mais para encontrar as informações espalhadas."
+    },
+
+    {
+        "terminologia" : "dhcp",
+        "definition" : "Dynamic Host Configuration Protocol. Protocolo que designa endereços IP dinâmicos a dispositivos da rede. Este endereço pode mudar a cada vez que o dispositivo é conectado à rede ou mesmo durante a conexão. Usado muito em acesso discado."
+    },
+
+    {
+        "terminologia" : "diretório",
+        "definition" : "Parte de uma estrutura de gerenciamento de arquivos, usada para armazenar e organizar arquivos. Contém informações sobre a localização, o tamanho e o tipo dos arquivos contidos no disco. Também é utilizado para designar a área do disco destinada ao usuário armazenar os seus arquivos. Um diretório possui um nome semelhante ao nome de arquivo, e pode possuir subdiretórios ramificados. O mesmo que pasta no Macintosh e no Windows."
+    },
+
+    {
+        "terminologia" : "dispositivos",
+        "definition" : "No Unix, são meios de armazenar as informações de dois tipos: bloco e caractere. Os dispositivos de bloco, como o disco rígido, armazenam blocos de dados de tamanho fixo e endereço próprio. Os de caractere, como o mouse, aceitam conjuntos de caracteres sem endereçamento. Ambos podem ser acessados pelo diretório /dev (dev de device − dispositivo)."
+    },
+
+    {
+        "terminologia" : "distribuição",
+        "definition" : "Conjunto de arquivos necessários ao funcionamento do Linux empacotado com o kernel por empresas ou grupos de programadores, que lhe dão características diferentes. Entre as distribuições mais conhecidas no país estão Red Hat, Slackware, Debian e Conectiva."
+    },
+
+    {
+        "terminologia" : "dlc",
+        "definition" : "(1) Data Link Control. O nível 2 do modelo de referência OSI. O endereço DLC identifica univocamente um dispositivo conectado à rede. Em redes Ethernet também é conhecido como endereço MAC. (2) Digital Loop Carrier. Estrutura de telecomunicações que conecta usuários finais distantes até 3,5 km da central telefônica."
+    },
+
+    {
+        "terminologia" : "dmt",
+        "definition" : "Discrete Multi−Tone modulation. Esquema de modulação que divide discretamente as freqüências disponíveis em 256 subcanais para evitar as perdas dos sinais de alta freqüência causadas por ruído nos fios de cobre. Padronizado pelo ANSI T1E1.4."
+    },
+
+    {
+        "terminologia" : "dns",
+        "definition" : "Domain Name Service ou Serviço de Nome de Domínio. É um serviço e protocolo da família TCP/IP para o armazenamento e consulta a informações sobre recursos de uma rede como a Internet. Sempre que você tenta acessar uma página na Internet, seu computador usa o DNS do provedor para localizar o endereço real da página (no caso o IP)."
+    },
+
+    {
+        "terminologia" : "download",
+        "definition" : "Processo de copiar um arquivo de um computador remoto para outro através da rede."
+    },
+
+    {
+        "terminologia" : "downsizing ",
+        "definition" : "É a migração de sistemas de grande porte centralizados (mainframes) para a computação distribuída, geralmente redes no esquema cliente−servidor, ou sem gerenciamento (que não possuem servidor). Normalmente a migração é feita em etapas até que todos os aplicativos (softwares) estejam funcionando nos novos equipamentos."
+    },
+
+    {
+        "terminologia" : "drive",
+        "definition" : "Acionador. Dispositivo eletromecânico que permite que se extraia informações de um disco magnético flexível, rígido, óptico ou de fitas magnéticas tipo streamer."
+    },
+
+    {
+        "terminologia" : "dsl",
+        "definition" : "Digital Subscriber Line ou Linha Digital de Assinatura. Refere−se aos vários tipos de assinatura, todos compatíveis com o cabeamento regular de cobre. Tipicamente, o DSL é usado para prover conexão contínua de alta velocidade com o provedor de acesso. Há vários tipos de DSL (ADSL, UADSL, etc.) e muitos deles permitem falar ao telefone e usar a Internet ao mesmo tempo."
+    },
+
+    {
+        "terminologia" : "ebcdic",
+        "definition" : "Extended Binary Coded Decimal Interchange Code. Código internacional para padrão de caracteres utilizado em mainframes."
+    },
+
+    {
+        "terminologia" : "ecr",
+        "definition" : "Efficient Consumer Response, Resposta Eficiente ao Consumidor. É uma estratégia de cadeia produtiva a partir da qual, indústria, distribuidores e varejo fazem esforços conjuntos para oferecer mais valor ao consumidor."
+    },
+
+    {
+        "terminologia" : "edge",
+        "definition" : "Enhanced Data Rates for GSM Evolution. Padrão proposto com o objetivo de acelerar a comunicação com o padrão GSM até a velocidade de 384 kbps."
+    },
+
+    {
+        "terminologia" : "edi",
+        "definition" : "Electronic Data Interchange, Intercâmbio eletrônico de dados. Transferência controlada de dados entre empresas e organizações utilizando padrões estabelecidos de segurança."
+    },
+
+    {
+        "terminologia" : "edo",
+        "definition" : "Tipo de chips de memória. A memória EDO (de Extended Data Out, ou Saída Estendida de Dados) proporciona um aumento de desempenho de 10% a 30% em comparação com a RAM tradicional."
+    },
+
+    {
+        "terminologia" : "emoticons",
+        "definition" : "Nome dado para aqueles pequenos sinais, como as carinhas sorridentes que são utilizados em larga escala nas mensagens de e−mail, chat e newsgroup da Internet. Auxilia as pessoas a expressarem seus sentimentos através da rede de forma rápida e padronizada em todo o planeta."
+    },
+
+    {
+        "terminologia" : "emulador",
+        "definition" : "Em computadores, um emulador é um dispositivo de hardware ou um programa que finge ser outro dispositivo particular ou programa que outros componentes esperam interagir. Por exemplo, usando um emulador de 3270, um programa escrito para ser usado com estações de trabalho 3270 podem se comunicar e controlar um computador pessoal como se fosse um 3270."
+    },
+
+    {
+        "terminologia" : "erp",
+        "definition" : "Enterprise Resource Planning. Termo usado para sistemas que controlam uma empresa de ponta a ponta, da produção às finanças. Geralmente estão baseados num pacote integrado de gestão empresarial."
+    },
+
+    {
+        "terminologia" : "ext2",
+        "definition" : "Sistema de arquivos usado pela maioria das distribuições de Linux."
+    },
+
+    {
+        "terminologia" : "extranet",
+        "definition" : "Termo que se refere a uma intranet que é particularmente acessível a determinados membros de fora. Enquanto uma intranet está baseada em um firewall e é acessível apenas a membros de uma mesma companhia ou organização, uma extranet fornece vários níveis de acessibilidade a membros de fora. Você pode acessar uma extranet apenas se você tiver um username e uma senha válidos e sua identidade determina quais partes da extranet você pode ver. As extranets estão se tornando meios populares de as parceiras de um mesmo nível de negócios trocarem informações. "
+    },
+
+    {
+        "terminologia" : "file",
+        "definition" : ""
+    },
+
+    {
+        "terminologia" : "firewall",
+        "definition" : "Porta corta fogo. Sistema de segurança, envolvendo hardware e software, para proteger computadores ou redes conectados à Internet. Um nó da rede configurado como limite para evitar que o tráfego de um segmento atravesse para o outro e vice−versa, por questões de segurança. Geralmente são configurados em roteadores da rede."
+    },
+
+    {
+        "terminologia" : "dat",
+        "definition" : "Fita magnética acondicionada em cartuchos pouco menores que uma fita cassete, destinada ao armazenamento de informações como cópia de segurança ou backup."
+    },
+
+    {
+        "terminologia" : "flame",
+        "definition" : "Resposta geralmente provocativa a uma mensagem de newsgroup ou de lista de e−mail. Uma troca contínua de flames é chamada de guerra de flames e, habitualmente, provoca irritação nos usuários da lista ou grupo, já que é difícil chegar a qualquer conclusão."
+    },
+
+    {
+        "terminologia" : "flash",
+        "definition" : "Programa desenvolvido pela Macromedia para criar páginas multimídia."
+    },
+
+    {
+        "terminologia" : "floppy",
+        "definition" : "O mesmo que disquete."
+    },
+
+    {
+        "terminologia" : "forward",
+        "definition" : "Repassar um e−mail recebido a outra pessoa."
+    },
+
+    {
+        "terminologia" : "frame",
+        "definition" : "Quadro ou moldura. Subdivisão em forma de janela dentro de uma mesma página web com informações à parte."
+    },
+
+    {
+        "terminologia" : "freemail",
+        "definition" : "É um serviço de e−mail gratuito oferecido atualmente por diversos sites na Internet. Em troca do e−mail gratuito você precisa preencher cadastros e geralmente autorizar o recebimento de anúncios através do correio eletrônico. O site pioneiro no serviço foi o Hotmail (www.hotmail.com)."
+    },
+
+    {
+        "terminologia" : "freeware",
+        "definition" : "Software distribuído gratuitamente."
+    },
+
+    {
+        "terminologia" : "ftp",
+        "definition" : "File Transfer Protocol ou Protocolo de Transferência de Arquivos. É o protocolo usado para a cópia de arquivos entre sistemas de computador remotos em uma rede que utiliza TCP/IP, como a Internet. Esse protocolo permite que os usuários utilizem comandos do FTP para manipular esses arquivos, em operações como listar arquivos e diretórios no sistema remoto."
+    },
+
+    {
+        "terminologia" : "gateway",
+        "definition" : "Sistema de interligação de duas ou mais redes com diferentes protocolos de comunicação, de modo que seja possível transferir informações entre elas. Normalmente operam em uma ou mais das quatro camadas do modelo OSI."
+    },
+
+    {
+        "terminologia" : "gif",
+        "definition" : "Graphic Interchange Format. Formato para arquivos muito utilizado."
+    },
+
+    {
+        "terminologia" : "gigabyte",
+        "definition" : "Equivalente a 1024 MB."
+    },
+
+    {
+        "terminologia" : "gnome",
+        "definition" : "Acrônimo de GNU Network Object Model Environment, é um programa que cria ambiente de trabalho gráfico em Unix."
+    },
+
+    {
+        "terminologia" : "gnu",
+        "definition" : "É uma sigla recursiva. Trata−se de um projeto para desenvolver um sistema operacional de código−fonte livre semelhante ao Unix. Embora o GNU não tenha desenvolvido o kernel do Linux, ele deu origem a muitas ferramentas que fazem parte desse sistema."
+    },
+
+    {
+        "terminologia" : "gopher",
+        "definition" : "Ferramenta muito popular antes do surgimento da WWW, permite a procura de informação em bases de dados existentes em todo o mundo, funcionando através de um sistema de menus."
+    },
+
+    {
+        "terminologia" : "gpf",
+        "definition" : "General Protection Fault ou Falha Geral de Proteção. Ocorrem quando um problema no programa aplicativo do Windows trava o sistema. São geralmente frutos de acesso indevido a áreas de memória protegida do sistema."
+    },
+
+    {
+        "terminologia" : "gpl",
+        "definition" : "General Public License. Licença de software criada para o GNU, mas também adotada por outros desenvolvedores. Assegura que o código−fonte mantenha−se livre para distribuição e uso."
+    },
+
+    {
+        "terminologia" : "gprs",
+        "definition" : "General Packet Radio Service, serviço de comunicação sem fio baseado em pacotes para tecnologia de telefonia móvel padrão GSM. Entre suas promessas estão a taxa de transmissão de até 114 Kbps e a conexão contínua com a internet."
+    },
+
+    {
+        "terminologia" : "groupware",
+        "definition" : "Software criado para ser usado numa rede que serve um grupo de usuários trabalhando num projeto relacionado."
+    },
+
+    {
+        "terminologia" : "grupo",
+        "definition" : "Forma de dar a grupos de usuários acesso ao sistema operacional, com permissões configuráveis."
+    },
+
+    {
+        "terminologia" : "gsm",
+        "definition" : "Global System for Mobile Communications ou Sistema Global para Comunicação Móvel. Tecnologia criada a partir do TDMA. Um sistema europeu para comunicação sem fio. Lançada em 1991, esta tecnologia digital é o padrão adotado na Europa e Ásia, sendo utilizado em mais de 100 países. Transmite à freqüência de 9,6 a 14,4 kbps."
+    },
+
+    {
+        "terminologia" : "hacker",
+        "definition" : "Especialista em resolver problemas e descobrir furos de segurança em redes, como a Internet."
+    },
+
+    {
+        "terminologia" : "half",
+        "definition" : "Um método de sinalização (transmissão) no qual um dado transferido pode ir por uma ou outra direção, mas somente um de cada vez."
+    },
+
+    {
+        "terminologia" : "hardware",
+        "definition" : "Dispositivos que compõem um computador, inclusive a CPU, a memória e os dispositivos de entrada e saída."
+    },
+
+    {
+        "terminologia" : "hd",
+        "definition" : "Também conhecido por winchester, hard disk ou disco rígido, é o espaço físico para o armazenamento de dados de forma mais permanente. Atualmente, encontram−se no mercado HDs com capacidade superior a 20 GB. "
+    },
+
+    {
+        "terminologia" : "hfc",
+        "definition" : "Hybrid Fiber Coax. Rede de transmissão de dados híbrida, que utiliza fibra óptica e cabos coaxiais."
+    },
+
+    {
+        "terminologia" : "hiperlink",
+        "definition" : "Formado pela junção das palavras hipertexto + link. (Hipervínculo) Palavra, expressão ou imagem que permite o acesso imediato à outra parte de um mesmo, ou outro documento, bastando ser acionado pelo ponteiro do mouse. Num hipertexto, um link, na forma de palavra ou expressão, vem sublinhado ou grafado em cor distinta da utilizada para o resto do texto."
+    },
+
+    {
+        "terminologia" : "hipermídia ",
+        "definition" : "Um documento hipermídia contém imagens, vídeos, áudios e textos. Além disso, usa ligações de hipertextos para permitir que o usuário salte de um trecho para outro do documento ou até mesmo para um documento diferente. O termo hipermídia também é utilizado como sinônimo de multimídia."
+    },
+
+    {
+        "terminologia" : "hipertexto",
+        "definition" : "Texto que inclui links ou atalhos para outros documentos, permitindo ao leitor pular facilmente de um texto para outro, relacionados, de forma não−linear. O termo foi criado por Ted Nelson, em 1965, para descrever documentos que expressam estruturas de idéias não−lineares, em oposição ao formato linear dos filmes, dos livros e da fala."
+    },
+
+    {
+        "terminologia" : "hit",
+        "definition" : "Significa um pedido de um browser Web para um único item de um servidor Web. Assim, para que um browser exiba uma página que contenha três gráficos, vão ocorrer quatro hits no servidor: um para a página HTML, e um para cada um dos três gráficos."
+    },
+
+    {
+        "terminologia" : "home",
+        "definition" : "É a página principal de um Web site. Normalmente a página serve como um índice para o conteúdo restante do site."
+    },
+
+    {
+        "terminologia" : "host",
+        "definition" : "Nome dado para o computador principal num ambiente de processamento distribuído. Tipicamente, ele se refere a um computador grande central que controla toda uma rede ou serviços dela. Em alguns casos costuma referenciar computadores simples conectados a uma rede local."
+    },
+
+    {
+        "terminologia" : "hrtf",
+        "definition" : "Head Related Transfer Functions ou Funções de Transferência Relacionadas à cabeça. Um conjunto de filtros de aúdio que permite variar a localização de efeitos de som em três dimensões em relação à posição dos ouvidos do usuário."
+    },
+
+    {
+        "terminologia" : "html",
+        "definition" : "HyperText Markup Language ou Linguagem de Marcação de Hipertexto. Linguagem de formatação de textos e imagens utilizada para apresentar os documentos publicados na WWW (World Wide Web), que serão lidos pelos browsers."
+    },
+
+    {
+        "terminologia" : "http",
+        "definition" : "HyperText Transfer Protocol ou Protocolo de Transferência de Hipertexto. Protocolo que controla o envio de uma página em HTML de um servidor para um cliente."
+    },
+
+    {
+        "terminologia" : "https",
+        "definition" : "Secure HTTP, HTTP Seguro. Protocolo padrão, definido pelo IETF, para prover segurança ao protocolo HTTP, usado nas transferências de páginas Web. "
+    },
+
+    {
+        "terminologia" : "hub",
+        "definition" : "Um dispositivo central de conexão numa rede, que junta linhas de comunicações numa configuração do tipo estrela. Podem ter uma só taxa de transferência ou operar em várias velocidades. O número de portas significa o número de dispositivos que podem ser ligados a ele. Modelos mais modernos podem ser gerenciáveis através de programas específicos. Há diversos tipos de hubs: o hub 'burro' funciona apenas com um condutor de dados. Os chamados hubs 'inteligentes' podem transferir dados de uma rede para outra e atribuir taxas de transferências diferentes entre as portas de acordo com a necessidade de cada uma. Atualmente estão sendo substituídos em larga escala por switchs. "
+    },
+
+    {
+        "terminologia" : "ica",
+        "definition" : "Independent Computing Architecture ou Arquitetura de Computação Independente. Trata−se de uma tecnologia de comunicação entre sistemas que está em desenvolvimento e tem como objetivo básico permitir que computadores conectados em rede rodem todas as suas aplicações num servidor, sendo que apenas os resultados e a interface de operação sejam exibidas nas máquinas clientes."
+    },
+
+    {
+        "terminologia" : "icq",
+        "definition" : "I seek you ou Procurando você. Programa desenvolvido pela Mirabilis que se tornou uma das aplicações mais populares da Internet. Permite encontrar amigos ou pessoas conectadas em tempo real e manter conversas ou sessões de chat. Para isso, é necessário que a outra pessoa também tenha o programa instalado em seu computador e esteja registrada na rede ICQ."
+    },
+
+    {
+        "terminologia" : "ide",
+        "definition" : "Intelligent Drive Electronics. É o tipo de conexão tradicional entre seu PC e o drive de mídia removível, a placa−mãe e o hard disk, e assim por diante."
+    },
+
+    {
+        "terminologia" : "ieee",
+        "definition" : "Institute of Electrical and Electronic Engineers. Uma organização que inclui engenheiros, cientistas e estudantes de eletrônica e áreas relacionadas com computação. É responsável pela sugestão e criação de normas para diferentes áreas da computação."
+    },
+
+    {
+        "terminologia" : "ietf",
+        "definition" : "Internet Engineering Task Force, Força Tarefa de Engenharia da Internet. Entidade internacionalmente reconhecida, responsável pela normatização e padronização de tecnologias que envolvem a Internet."
+    },
+
+    {
+        "terminologia" : "interface",
+        "definition" : "É uma interface que usa símbolos (ícones) no lugar de comandos. Funciona como uma capa sobre o sistema operacional."
+    },
+
+    {
+        "terminologia" : "internet",
+        "definition" : "Rede mundial de computadores que utilizam a arquitetura de protocolos de comunicação TCP/IP, originou−se de um sistema de telecomunicações descentralizado criado pelo Departamento de Defesa dos Estados Unidos durante a Guerra Fria. Durante os anos 70 e 80, cresceu entre o meio acadêmico, quando sua principal aplicação era o correio eletrônico. Com a aparição da World Wide Web em 1993, a Internet se popularizou. Provê transferência de arquivos, login remoto, correio eletrônico, news, navegação na Web e outros serviços."
+    },
+
+    {
+        "terminologia" : "intranet",
+        "definition" : "Rede corporativa que utiliza a tecnologia e a infra−estrutura de transferência de dados da Internet na comunicação interna da própria empresa ou comunicação com outras empresas."
+    },
+
+    {
+        "terminologia" : "ip",
+        "definition" : "Internet Protocol. Protocolo responsável pelo roteamento de pacotes entre dois sistemas que utilizam a família de protocolos TCP/IP. A transmissão de informação ocorre mediante pequenos pacotes de bits que contêm os dados que estão sendo enviados e o endereço a que se dirigem. Esses pacotes são reagrupados ao chegar ao seu destino."
+    },
+
+    {
+        "terminologia" : "ipv4",
+        "definition" : "Versão número 4 do protocolo IP."
+    },
+
+    {
+        "terminologia" : "ipv6",
+        "definition" : "Versão número 6 do protocolo IP. Próxima versão que será adotada na Internet, principalmente para eliminar o problema da escassez de endereços IP que podem ser atribuídos."
+    },
+
+    {
+        "terminologia" : "ipx",
+        "definition" : "Internetwork Packet eXchange. Um protocolo de comunicações NetWare usado para rotear mensagens de um ponto para outro. Realiza o mesmo serviço do IP do TCP/IP. Os pacotes IPX incluem endereços e podem ser roteados de uma rede para outra, mas não existe garantia da entrega da mensagem."
+    },
+
+    {
+        "terminologia" : "irc",
+        "definition" : "Internet Relay Chat. Serviço que possibilita a comunicação escrita entre usuários online. É a forma mais próxima do que seria uma 'conversa escrita' na Rede. "
+    },
+
+    {
+        "terminologia" : "irq",
+        "definition" : "Sinal de hardware enviado ao processador solicitando a suspensão do mesmo para atender o hardware que solicitou a interrupção."
+    },
+
+    {
+        "terminologia" : "isdn",
+        "definition" : "Integrated Services Digital Networks ou Rede Digital de Serviços Integrados. Sistema telefônico digital que, mediante o uso de equipamentos especiais, mas utilizando a rede telefônica comum, permite enviar e receber voz e dados simultaneamente com muito mais velocidade, através de uma linha telefônica."
+    },
+
+    {
+        "terminologia" : "isp",
+        "definition" : "Abreviação para Internet Service Provider ou Provedor de Serviço de Internet, uma empresa que provê acesso a Internet. Por uma quantia mensal, o provedor dá a você um pacote de software, nome de usuário, senha e um número telefônico de acesso. Equipado com um modem, você pode então conectar a Internet e navegar na Wolrd Wide Web e USENET, e enviar e receber e−mails."
+    },
+
+    {
+        "terminologia" : "it",
+        "definition" : "Information Technology ou Tecnologia de Informações. É o termo usado para a área da computação responsável pelo estudo, implementação e desenvolvimento de tecnologia usada para o processamento e armazenamento de informações. Como exemplo, os antigos CPDs (Central de Processamento de Dados) das grandes empresas hoje são responsabilidade da área de IT da empresa."
+    },
+
+    {
+        "terminologia" : "java",
+        "definition" : "Linguagem de programação desenvolvida e criada pela Sun Microsystems baseada totalmente na teoria da orientação a objetos, que permite o desenvolvimento de aplicações e applets Java. Gera um código que é intepretado na máquina do usuário através de uma Máquina Virtual Java, o que torna a linuagem multiplataforma, permitindo que ela seja executada em praticamente todas as máquinas e sistemas operacionais. O símbolo é o café."
+    },
+
+    {
+        "terminologia" : "javascript",
+        "definition" : "Linguagem de criação de scripts desenvolvida pela Netscape e pela Sun Microsystems. Serve para incluir funções e aplicações online básicas em páginas Web, mas o número e a complexidade das funções disponíveis são menores do que com Java."
+    },
+
+    {
+        "terminologia" : "jpeg",
+        "definition" : "Joint Photographic Experts Group. Formato gráfico que permite uma alta taxa de compressão de imagens, mantendo boa qualidade, o que o torna muito popular na Internet."
+    },
+
+    {
+        "terminologia" : "jump",
+        "definition" : "Salto. Termo usado para descrever o ato de se mover no ciberespaço. O usuário salta através de links."
+    },
+
+    {
+        "terminologia" : "jumper",
+        "definition" : "Pequenos interruptores de plástico usados nas placas de hardware. Pôr ou tirar um jumper significa mudar a operação das placas. Sistema de configuração das placas."
+    },
+
+    {
+        "terminologia" : "jvm",
+        "definition" : "Java Virtual Machine. Um interpretador de instruções produzidas em linguagem Java, que pode ser executado em diferentes sistemas operacionais e até navegadores da Internet. É o que garante a portabilidade do Java."
+    },
+
+    {
+        "terminologia" : "kbps",
+        "definition" : "Kilobits por segundo. Medida de transferência de dados ou velocidade de rede. Equivale a 1000 bits por segundo."
+    },
+
+    {
+        "terminologia" : "kernel",
+        "definition" : "O núcleo do sistema operacional. O kernel administra os recursos do computador dividindo−os entre os vários processos que o requisitam. Gerencia e controla o acesso ao sistema de arquivos, a memória, a tabela de processos e o acesso aos dispositivos e periféricos, entre outras atribuições. É a cabeça do sistema operacional."
+    },
+
+    {
+        "terminologia" : "kilobyte",
+        "definition" : "Equivalente a 1024 bytes."
+    },
+
+    {
+        "terminologia" : "l2tp",
+        "definition" : "Layer2 Tunneling Protocol. Uma extensão do PPP para VPN. Na verdade, é uma junçao do PPTP, da Microsoft, com o L2F, da Cisco."
+    },
+
+    {
+        "terminologia" : "lan",
+        "definition" : "Local Area Network ou Rede Local. Rede de computadores local, isto é, restrita a um prédio, uma sala ou uma empresa. Não tem tamanho físico determinado e pode ligar qualquer computador com qualquer protocolo.Uma LAN não é Internet, ainda que possa estar conectada à Internet"
+    },
+
+    {
+        "terminologia" : "lcp",
+        "definition" : "Link Control Protocol. É o protocolo responsável por controlar o estado da conexão. É ele que fica 'vigiando' se as 'pontas' estão 'vivas' através dos LCP−echorequest (um tipo de ping) e LCP−echo−reply (a resposta pong)."
+    },
+
+    {
+        "terminologia" : "link",
+        "definition" : "(1) Conexão, ou seja, elementos físicos e lógicos que interligam os computadores da Rede. Na Web, são palavras−chave destacadas em um texto, que, quando clicadas, nos levam para o assunto desejado, em outro arquivo ou servidor. (2) Nos sistemas Unix, o link é um atalho para um diretório ou um arquivo. Há o link simbólico, que aponta para o caminho do arquivo, e o hardlink, que aponta para uma área no sistema de arquivos."
+    },
+
+    {
+        "terminologia" : "linux",
+        "definition" : "Variante do sistema operacional Unix, foi criado pelo finlandês Linus Thorvald para PC e é desenvolvido por uma ativa comunidade de programadores em todo o mundo, que colaboram através da Internet com o projeto. Integra o Free Software Movement (Movimento pelo Software Livre)."
+    },
+
+    {
+        "terminologia" : "log",
+        "definition" : "Arquivos armazenados em um servidor que detalham a atividade do mesmo. Utilizando os logs, pode−se saber que páginas são mais acessadas em um site, as datas e horas em que são acessadas e até de onde vêm os pedidos."
+    },
+
+    {
+        "terminologia" : "login",
+        "definition" : "O login é o nome que o usuário utiliza para acessar o servidor da rede. Para entrar na rede, é preciso entrar com a identificação (login), seguido de uma senha (password)."
+    },
+
+    {
+        "terminologia" : "mainframe",
+        "definition" : "Metropolitan Area Network ou Rede de Alcance Metropolitano. Uma rede de abrangência metropolitana, em termos de tamanho e custo está entre as LANs e WANs"
+    },
+
+    {
+        "terminologia" : "mbps",
+        "definition" : "Velocidade de tráfego de dados, equivalente a 10 milhões de bits por segundo."
+    },
+
+    {
+        "terminologia" : "md5",
+        "definition" : "Algoritmo usado para a criação de assinaturas digitais. Consiste na aplicação de uma função hash (One−way Hash) para a obtenção de um autenticador (Message Digest, Compilação de Mensagem)."
+    },
+
+    {
+        "terminologia" : "megabyte",
+        "definition" : "Equivalente a 1024 KB"
+    },
+
+    {
+        "terminologia" : "megahertz",
+        "definition" : "O hertz (Hz) é uma unidade de medida de freqüência, calculada em um ciclo (de um evento periódico, como uma forma de onda) por segundo. O número geralmente indicado ao lado do modelo do chip (Pentium 700 MHz, por exemplo) se refere à velocidade do processador, medida em megahertz (MHz). Um megahertz (MHz) equivale a mil Kilohertz (kHz). "
+    },
+
+    {
+        "terminologia" : "mhz",
+        "definition" : "O hertz (Hz) é uma unidade de medida de freqüência, calculada em um ciclo (de um evento periódico, como uma forma de onda) por segundo. O número geralmente indicado ao lado do modelo do chip (Pentium 700 MHz, por exemplo) se refere à velocidade do processador, medida em megahertz (MHz). Um megahertz (MHz) equivale a mil Kilohertz (kHz). "
+    },
+
+    {
+        "terminologia" : "memória",
+        "definition" : "É um dos termos que mais aparecem em informática. Pode ser definida como o espaço num computador que é capaz de reter dados e instruções. Podemos dividí−la basicamente em RAM − memória central de acesso rápido que armazena os programas e os dados em uso (e que se perde quando a energia é cortada) − e em memória de disco, pela qual são armazenados programas e arquivos num disco (disquete, disco rígido, CD−ROM), de modo que os dados não sejam perdidos quando a energia é desligada. Já a memória cache é uma seção de memória de alta velocidade − ela armazena dados que a CPU do computador precisa acessar constantemente."
+    },
+
+    {
+        "terminologia" : "eeprom",
+        "definition" : "Electrally Erasable Programmable ROM ou ROM Programável e Apagável Eletricamente. Memória ROM que pode ser programada e apagada eletricamente. Também chamada de E2PROM. "
+    },
+
+    {
+        "terminologia" : "ram",
+        "definition" : "Random Access Memory ou Memória de Acesso Randômico (Aleatório). É volátil, ou seja, só trabalha enquanto o equipamento estiver ligado. É uma memória de leitura e gravação, que apenas processa as informações e permite ao computador fazer inúmeros cálculos e trabalhar com muitos dados ao mesmo tempo."
+    },
+
+    {
+        "terminologia" : "rom",
+        "definition" : "Read Only Memory ou Memória Somente de Leitura. Gravada pelo fabricante do microcomputador. Contém as informações referentes às rotinas de inicialização."
+    },
+
+    {
+        "terminologia" : "midi",
+        "definition" : "Musical Instrument Digital Interface. Protocolo destinado a gravação e execução de música em sintetizadores digitais suportado pela maioria das placas de som para PCs. Não é o som, mas a informação sobre como a música é produzida, com comandos de notas e ausência de notas, tempo, etc. Isso permite a concisão de um arquivo MIDI. A desvantagem é a falta de controle específico de som. As placas de som geralmente já vêm com programas para MIDI."
+    },
+
+    {
+        "terminologia" : "mídia",
+        "definition" : "Meio físico de transmissão utilizado por um sistema de comunicação."
+    },
+
+    {
+        "terminologia" : "mime",
+        "definition" : "Multipurpose Internet Mail Extension ou Extensões de Internet Mail de Multipropósito. Padrão que amplia o SMTP para permitir que dados, como vídeo, som e arquivos binários, sejam transmitidos pelo correio eletrônico e pela Web sem precisar de conversão prévia para o formato ASCII."
+    },
+
+    {
+        "terminologia" : "mips",
+        "definition" : "É a sigla para Milhões de Instruções Por Segungo, que é a velocidade em que um computador executa as instruções em um processador. "
+    },
+
+    {
+        "terminologia" : "mirror",
+        "definition" : "Espelho. Servidor que contém um conjunto de arquivos que é duplicata do conjunto existente em outro servidor."
+    },
+
+    {
+        "terminologia" : "modem",
+        "definition" : "A palavra tem origem na abreviação de MOdulator/DEModulator (Modulador/Demodulador). Esse dispositivo permite que os dados em formato binário utilizados por um computador sejam enviados, por meio de telefone, através de sua conversão em sinais analógicos de som − o padrão pelo qual podem ser transmitidos por uma linha telefônica. O processo de conversão de sinais binários para analógicos é chamado modulação. Quando o sinal é recebido, um outro modem reverte o processo, o que é chamado demodulação."
+    },
+
+    {
+        "terminologia" : "módulos",
+        "definition" : "Rotinas do Linux que executam funções de sistema, como o módulo da placa de rede. São dinamicamente carregados e descarregados do kernel em execução."
+    },
+
+    {
+        "terminologia" : "mp3",
+        "definition" : "MPEG 1 Layer 3. Formato de gravação para arquivos sonoros que possui alta fidelidade e compactação."
+    },
+
+    {
+        "terminologia" : "mpeg",
+        "definition" : "Moving Pictures Experts Group. Um padrão ISO para compactação de vídeo com movimento. O MPEG 1, a primeira geração do padrão foi adotada para o uso em VideoCD."
+    },
+
+    {
+        "terminologia" : "mpeg2",
+        "definition" : "Segunda geração do padrão de gravação para vídeos utilizado nos discos de DVD vídeo. Possui como característica alta compressão e resolução das imagens, além de permitir a transmissão por rádio difusão. Será utilizado na HDTV, a próxima geração dos televisores."
+    },
+
+    {
+        "terminologia" : "mru",
+        "definition" : "Maximum Receive. Durante uma comunicação, essa opção é utilizada por uma das partes, para informar à outra de que ela pode receber pacotes de dados grandes ou requerer pacotes de dados pequenos. "
+    },
+
+    {
+        "terminologia" : "mbone",
+        "definition" : "Protocolo de alta velocidade usado para difundir áudio e vídeo na Internet. Permite que um conjunto de sites da Internet possa transmitir áudio e vídeo em tempo real, ao mesmo tempo, a todos os outros."
+    },
+
+    {
+        "terminologia" : "multimídia",
+        "definition" : "Os equipamentos e softwares com esta tecnologia trabalham simultaneamente com sons, imagens e textos. Em uma mesma tela de computador, você pode receber informações através de vídeos, fotos, gráficos, trilhas sonoras e textos. A Internet está virando cada vez mais um serviço multimídia. Também é importante que esses documentos sejam interativos, ou seja, que permitam a participação do usuário. Para ser mais preciso, utiliza−se também o termo multimídia interativa."
+    },
+
+    {
+        "terminologia" : "nasdaq",
+        "definition" : "Abreviação de National Association for Securities Dealers Automated Quotation (Cotação Automatizada da Associação Nacional de Vendedores de Títulos). A Nasdaq reúne as ações de empresas de alta tecnologia, principalmente dos setores de informática, biotecnologia e Internet. Seu índice principal é o Nasdaq Composite Index, que abrange um total de mais de cinco mil empresas."
+    },
+
+    {
+        "terminologia" : "netWare",
+        "definition" : "Uma família de sistemas operacionais de rede da empresa Novell, que suporta clientes de diversos sistemas operacionais e diversos métodos de acesso a rede local como Ethernet e Token Ring. O NetWare é um dos gerenciadores de rede local mais usados por empresas de todo o mundo. "
+    },
+
+    {
+        "terminologia" : "next",
+        "definition" : "Near End cross−Talk. Tipo de cross−talk no qual a interferência viaja na direção contrária do sinal transmitido."
+    },
+
+    {
+        "terminologia" : "nfs",
+        "definition" : "Network File System. Sistema de compartilhamento de arquivos em rede criado pela Sun Microsystems para Unix."
+    },
+
+    {
+        "terminologia" : "noc",
+        "definition" : "Network Operations Center. Um centro administrativo e técnico que é responsável por gerenciar os aspectos operacionais de uma rede de computadores, como o controle de acesso a mesma, 'roteamento' de comunicação, entre outras funções."
+    },
+
+    {
+        "terminologia" : "nslookup",
+        "definition" : "Name Server Lookup. Recurso da Internet que permite ver qual o endereço IP correspondente a um determinado host e vice−versa."
+    },
+
+    {
+        "terminologia" : "nuke",
+        "definition" : "Apagar um arquivo, diretório ou o disco rígido inteiro. Interromper um processo em um sistema operacional, aplicação ou programa."
+    },
+
+    {
+        "terminologia" : "ocr",
+        "definition" : "Optical Caracter Recognition ou Programa óptico de reconhecimento de caracteres. Tecnologia utilizada para transformar a imagem do texto em arquivo texto editável. Geralmente utilizados junto com scanners."
+    },
+
+    {
+        "terminologia" : "odbc",
+        "definition" : "Open Database Connectivity. Consiste em um conjunto de drivers que atuam como uma camada entre o aplicativo e os dados, permitindo assim, acessar diferentes servidores de banco de dados."
+    },
+
+    {
+        "terminologia" : "oem",
+        "definition" : "Open Database Connectivity. Consiste em um conjunto de drivers que atuam como uma camada entre o aplicativo e os dados, permitindo assim, acessar diferentes servidores de banco de dados."
+    },
+
+    {
+        "terminologia" : "offline",
+        "definition" : "Diz−se quando o computador não está conectado."
+    },
+
+    {
+        "terminologia" : "onboard",
+        "definition" : "Este termo indica que o adaptador de vídeo (ou qualquer outro dispositivo) está na própria placa−mãe e não em uma unidade separada. Não indica má qualidade, necessariamente, mas não é a tecnologia mais atual."
+    },
+
+    {
+        "terminologia" : "online",
+        "definition" : "Estar conectado à Internet. Usa−se também para descrever uma variedade de atividades que se podem fazer na Internet, como chat online, games online, compras online, etc."
+    },
+
+    {
+        "terminologia" : "oracle",
+        "definition" : "Sistema de gerenciamento de bancos de dados relacional da Oracle Corporation, que pode ser utilizado numa grande variedade de computadores, desde micros pequenos até computadores de grande porte."
+    },
+
+    {
+        "terminologia" : "POO",
+        "definition" : "Programação orientada e objetos. Método de programação que vem substituindo a antiga programação estruturada e que possui diversas vantagens. O Java é orientado a objetos. "
+    },
+
+    {
+        "terminologia" : "osi",
+        "definition" : "OSI Open Systems Interconnection. É um modelo conceitual de protocolo com sete camadas definido pela ISO, para a compreensão e o projeto de redes de computadores. Trata−se de uma padronização internacional para facilitar a comunicação entre computadores de diferentes fabricantes."
+    },
+
+    {
+        "terminologia" : "overclock",
+        "definition" : "Técnica que consiste em fazer com que um processador trabalhe numa freqüência maior do que a que foi projetado, por exemplo, fazer um overclock num processador de 500 MHz para que ele funcione a 550 MHz."
+    },
+
+    {
+        "terminologia" : "overlay",
+        "definition" : "Técnica de aproveitamento da memória principal, que permite carregar, em tempos diferentes, partes separadas de um mesmo programa adequadamente dividido."
+    },
+
+    {
+        "terminologia" : "p2p",
+        "definition" : "Peer−to−Peer. O P2P funciona como uma rede de servidores conectados, permitindo o acesso, gerenciamento e troca de conteúdo em um ambiente distribuído e em tempo real, através de um sistema de busca avançada."
+    },
+
+    {
+        "terminologia" : "pacote",
+        "definition" : "A Internet é uma rede de comutação de pacotes, o que significa que permanentemente são enviadas e recebidas unidades de transmissão de tamanho fixo (os pacotes) contendo dígitos binários que representam dados e um cabeçalho que traz um número de identificação, endereços de origem e destino e informações para controle de erros."
+    },
+
+    {
+        "terminologia" : "pap",
+        "definition" : "Password Authentication Protocol. É um dos protocolos de autenticação do PPP. Esse protocolo não é o preferido dos administradores de sistema, pois a senha transita sem criptografia."
+    },
+
+    {
+        "terminologia" : "pasta",
+        "definition" : "Ou folder. Nome dado aos diretórios nos computadores Macintosh e PCs com Windows95 ou posterior. Um folder funciona exatamente como um diretório e serve para agrupar arquivos de um mesmo tipo ou programas."
+    },
+
+    {
+        "terminologia" : "patch",
+        "definition" : "Uma correção temporária para um bug num programa. Um patch é um pedaço atual de código de objeto que é inserido dentro (patched into) de um programa executável."
+    },
+
+    {
+        "terminologia" : "pda",
+        "definition" : "Personal Digital Assistant ou Assistente Pessoal Digital. Designa qualquer pequeno equipamento portátil (de mão) com capacidade de armazenar (e processar) dados e informações de uso pessoal."
+    },
+
+    {
+        "terminologia" : "peer",
+        "definition" : "Ponto a ponto. Rede que dispensa o uso de servidor. As redes locais montadas sobre os protocolos do Windows, por exemplo, são redes peer−to−peer. É o contrário das aplicações cliente−servidor em que um computador (o servidor) permite que outras máquinas (clientes) usem seus serviços."
+    },
+
+    {
+        "terminologia" : "pearl",
+        "definition" : "Pratical Extraction and Report Language. Linguagem de programação utilizada para produzir formulários ou processá−los. É usada em larga escala na Internet para produção de CGIs e processamento de informações através da rede."
+    },
+
+    {
+        "terminologia" : "petaflop",
+        "definition" : "Um petaflop é uma medida de velocidade de processamente de um computador e pode ser expressa como: um mil trilhões de operações de ponto flutuante por segundo (floating point operations per second (FLOPS)) ou mil teraflops."
+    },
+
+    {
+        "terminologia" : "ping",
+        "definition" : "Packet Internet Group. O ping é um programa usado para testar o alcance de uma rede, enviando a nós, remotos, uma requisição e esperando por uma resposta. Trabalha medindo o tempo em milissegundos que demora um computador remoto em responder a um pedido enviado por um computador local."
+    },
+
+    {
+        "terminologia" : "plug",
+        "definition" : "Extensões de um outro programa, como o browser, fornecidas por seu fabricante ou empresas parceiras, que fornecem recursos adicionais de multimídia, facilitando a visualização de texto, som e vídeo e maior interação com o usuário."
+    },
+
+    {
+        "terminologia" : "pop",
+        "definition" : "Post Office Protocol. Protocolo usado por clientes de correio eletrônico para manipulação de arquivos de mensagens em servidores de e−mail."
+    },
+
+    {
+        "terminologia" : "posix",
+        "definition" : "Acrônimo de Portable Operating System Interface for Unix. Conjunto de padrões que definem a interface entre os programas e os sistemas operacionais utilizado pelos diversos Unix."
+    },
+
+    {
+        "terminologia" : "pp",
+        "definition" : "Ponto de Presença. Local na rede que permite acesso a sub−redes e a provedores de serviços. Uma rede cobre a sua região de atuação através de presença nas principais cidade/distritos dessa região: interligados por um conjunto de linhas dedicadas, compondo um backbone."
+    },
+
+    {
+        "terminologia" : "ppp",
+        "definition" : "Point to Point Protocol ou Protocolo Ponto a Ponto. O protocolo mais utilizado para conectar computadores pessoais à Internet utilizando uma linha serial, como um modem, por exemplo. Permite a transmissão de informação a velocidades suficientemente altas para enviar gráficos e textos. Verifica pacotes enviados e permite retransmissão de pacotes extraviados. É considerado o sucessor do SLIP, por ser confiável e mais eficiente."
+    },
+
+    {
+        "terminologia" : "pptp",
+        "definition" : "Point−to−Point Tunneling Protocol. Evolução do protocolo PPP com objetivo de oferecer segurança para a implementação de VPNs. Desenvolvido por um consórcio de empresas lideradas pela Microsoft e U.S.Robotics."
+    },
+
+    {
+        "terminologia" : "processador",
+        "definition" : "Ou chip, é uma pastilha de circuito integrado. É feito de silício (material semicondutor) sobre o qual são montados um certo número de componentes − como transistores − que executam determinadas tarefas. Pode ser considerado o cérebro de um computador. A chamada arquitetura de um chip é o modo pelo qual os transistores (e também os resistores e os capacitores) são montados na peça de silício."
+    },
+
+    {
+        "terminologia" : "processo",
+        "definition" : "Também chamado de job, pode ser considerado uma instância de um programa ou de um comando em execução."
+    },
+
+    {
+        "terminologia" : "programa",
+        "definition" : "Um conjunto de instruções para o computador."
+    },
+
+    {
+        "terminologia" : "protocolo",
+        "definition" : "É o conjunto de regras que especificam o formato, a sincronização, o seqüenciamento e a verificação de erros na comunicação entre computadores, para que esta se possa efetuar."
+    },
+
+    {
+        "terminologia" : "provedor",
+        "definition" : "Instituição que se liga à Internet para obter conectividade IP e repassá−la a outros indivíduos e instituições, em caráter comercial ou não. O provedor de acesso torna possível ao usuário final a conexão à Internet através de uma ligação telefônica local."
+    },
+
+    {
+        "terminologia" : "proxy",
+        "definition" : "Componente de firewall que gerencia o tráfego da Internet de/para uma rede local e pode oferecer outros recursos, como o cache de documentos e o controle de acesso. Um servidor proxy pode filtrar e descartar solicitações que o proprietário não considere apropriadas, como solicitações de acesso não autorizado a arquivos patenteados."
+    },
+
+    {
+        "terminologia" : "qos",
+        "definition" : "Quality of Service ou Qualidade de Serviço. Na Internet e outras redes de computadores, QoS é o termo usado para medir a velocidade, erros e outras características de transmissão que podem ser melhoradas ou sofrerem modificações para aumentar a performance da transmissão."
+    },
+
+    {
+        "terminologia" : "query",
+        "definition" : "Consulta, pesquisa. Procedimento que inicia uma busca em um banco de dados qualquer"
+    },
+
+    {
+        "terminologia" : "queue",
+        "definition" : "Lista. Pilha de tarefas que aguardam processamento."
+    },
+
+    {
+        "terminologia" : "rack",
+        "definition" : "Equipamento em forma de armário que armazena os diversos dispositivos de controle de rede (como hubs, patch panels e D.I.O.s) que são encaixados como gavetas."
+    },
+
+    {
+        "terminologia" : "rede",
+        "definition" : "Dois ou mais computadores conectados entre si, permitindo a seus usuários compartilhar programas e arquivos. A rede pode ser permanente, quando conectada por cabos, ou temporária, quando a conexão se realiza através de linhas telefônicas. O termo é usado, também, como sinônimo para Internet."
+    },
+
+    {
+        "terminologia" : "roi",
+        "definition" : "Return On Investment ou Retorno em Investimento. Expressão muito utilizada para medir a relação custo benefício em sistemas de informação."
+    },
+
+    {
+        "terminologia" : "root",
+        "definition" : "Conta utilizada para gerenciar os sistemas operacionais Unix. O root cria as contas dos demais usuários e tem plenos poderes sobre todo o sistema. "
+    },
+
+    {
+        "terminologia" : "rotador",
+        "definition" : "Um sistema de computador numa rede que armazena e roteia (direciona) pacotes de dados entre as LANs e WANs. Os roteadores vêem as redes como endereços específicos e todos os caminhos possíveis entre elas."
+    },
+
+    {
+        "terminologia" : "rsa",
+        "definition" : "Técnica de criptografia de chave pública/privada baseada em fatoração de números primos muito grandes. O segredo da técnica reside no fato de que é computacionalmente inviável fatorar números primos muito grandes."
+    },
+
+    {
+        "terminologia" : "rtttl",
+        "definition" : "Ringing Tones Text Transfer Language. Uma linguagem para escrever notas musicais como texto. "
+    },
+
+    {
+        "terminologia" : "ruído",
+        "definition" : "Sinais estranhos e não−desejados numa rede. O excesso de ruído pode impedir uma rede de funcionar ou reduzir dramaticamente a sua velocidade."
+    },
+
+    {
+        "terminologia" : "sap",
+        "definition" : "(1) Systems, Applications and Products in data processing. Empresa líder mundial na produção de software de gestão empresarial. Seu sistema mais conhecido é o Sistema R/3, que é adotado por diversas empresas brasileiras e estrangeiras. Permite um gerenciamento completo de todas as informações dentro da empresa de forma padronizada. (2) Service Access Point ou Ponto de Acesso a Serviço. Terminologia técnica usada no modelamento teórico de redes de computadores. Basicamente, identifica uma via de comunicação entre duas camadas do protocolo em discussão."
+    },
+
+    {
+        "terminologia" : "sci",
+        "definition" : "Outro tipo de interface, desta vez a Small Computer Systems Interface. É a favorita para HDs mais potentes e scanners de alta capacidade, por exemplo. A principal vantagem é que este tipo de conexão é muito veloz. A desvantagem é que é preciso uma placa de interface específica, de modo que acaba−se tendo uma despesa extra."
+    },
+
+    {
+        "terminologia" : "servidor",
+        "definition" : "É o computador de uma rede responsável por administrar e fornecer programas e informações para os outros computadores conectados, chamados clientes."
+    },
+
+    {
+        "terminologia" : "sgbd",
+        "definition" : "Sistema gerenciador de banco de dados"
+    },
+
+    {
+        "terminologia" : "shareware",
+        "definition" : "Programa que pode ser testado pelo usuário antes do pagamento de licença de uso ao seu criador. Uma boa parte dos programas para a Internet são shareware ou freeware (gratuitos)."
+    },
+
+    {
+        "terminologia" : "shell",
+        "definition" : "É um componente de software − geralmente um programa em separado − que faz a comunicação direta entre o usuário e o sistema operacional. O Finder do Macintosh é um shell, assim como o programa da interface de comandos (Command.com) do MS−DOS. O shell interpreta os comandos dados pelo usuário."
+    },
+
+    {
+        "terminologia" : "sim",
+        "definition" : "Acrônimo em inglês de módulo de identificação do assinante, é o chip que carrega a linha telefônica no celular GSM, dando mobilidade à linha independentemente do aparelho."
+    },
+
+    {
+        "terminologia" : "so",
+        "definition" : "Programa especial que determina o modo de operação da máquina e de outros programas."
+    },
+
+    {
+        "terminologia" : "site",
+        "definition" : "Sítio. Um site é uma localização na WWW. Utiliza−se a palavra para definir o conjunto total de páginas que ficam abaixo da URL inicial."
+    },
+
+    {
+        "terminologia" : "slip",
+        "definition" : "Serial Line Internet Protocol ou Protocolo Internet de Linha Serial. Protocolo usado na Internet para acesso remoto discado, substituído pelo PPP. Não verifica pacotes enviados, mas é mais rápido do que o PPP."
+    },
+
+    {
+        "terminologia" : "smpt",
+        "definition" : "Simple Mail Transfer Protocol ou Protocolo Simples de Transferência de Correio. Protocolo TCP/IP usado para troca de mensagens de correio eletrônico."
+    },
+
+    {
+        "terminologia" : "socket",
+        "definition" : "Em uma rede, socket é o identificador de um serviço em um nó específico e um número de porta, o qual identifica o serviço. Por exemplo, a porta 80 em um nó da Internet indica um servidor da Web."
+    },
+
+    {
+        "terminologia" : "software",
+        "definition" : "Programas e instruções dadas a um computador."
+    },
+
+    {
+        "terminologia" : "sql",
+        "definition" : "Structured Query Language. Uma linguagem usada para consultar e processar informações num banco de dados relacional. Originalmente, foi desenvolvida pela IBM para computadores de grande porte e depois difundida. Os comandos SQL podem ser usados embutidos em outras linguagens de programação ou de forma direta através de um gerenciador de bancos de dados."
+    },
+
+    {
+        "terminologia" : "sse",
+        "definition" : "Extensão multimídia do padrão x86 incluída no Pentium III."
+    },
+
+    {
+        "terminologia" : "sse2",
+        "definition" : "Conjunto de instruções multimídia criado pela Intel para o Pentium 4."
+    },
+
+    {
+        "terminologia" : "ssh",
+        "definition" : "Secure Shell, Shell Seguro. Espécie de Telnet que usa criptografia. Com ele, pode−se abrir uma sessão remota em um servidor e os dados dessa conexão não estarão sujeitos a violação."
+    },
+
+    {
+        "terminologia" : "ssl",
+        "definition" : "Secure Sockets Layer, Camada de Socket Seguro. Um protocolo criado pela netscape e adotado pelo IETF que fornece uma comunicação segura de dados por meio da criptografia e da descriptografia entre dois computadores. É muito utilizado em sites seguros de venda de produtos. Sockets são uma interface de programação (API) para aplicações que usam o TCP/IP. Uma aplicação pode usar SSL para transferir dados de forma segura."
+    },
+
+    {
+        "terminologia" : "streaming",
+        "definition" : "É uma tecnologia para transferência de dados que faz com que o arquivo transmitido possa ser processado de forma contínua e constante. Ele não precisa baixar de forma completa para o computador do usuário para começar a ser executado, já que isto acontece à medida que vem sendo transferido."
+    },
+
+    {
+        "terminologia" : "swap",
+        "definition" : "Partição especial do disco rígido que os sistemas operacionais Unix utilizam em conjunto com a memória física para formar a memória virtual. Assim, os programas conseguem ter acesso a uma quantidade maior de memória."
+    },
+
+    {
+        "terminologia" : "switch",
+        "definition" : "Dispositivo de conexão central de redes do tipo estrela que direciona o fluxo de uma porta para outra. Seleciona a que computador se destina determinada informação (ao invés de jogá−la a todos na rede) e diminui o tráfego na conexão. É mais eficiente do que os hubs pois permite um gerenciamento mais seguro e divisão da rede em grupos de usuários chamadas VLANs."
+    },
+
+    {
+        "terminologia" : "sysop",
+        "definition" : "System Operator. Alguém responsável pela manutenção e operação de um sistema de computadores, geralmente um BBS ou de um provedor de acesso à Internet."
+    },
+
+    {
+        "terminologia" : "tag",
+        "definition" : "Um comando inserido em um documento que especifica como o documento ou uma parte dele deve ser formatado. Tags são utilizadas no código html de uma página para indicar ao browser como a mesma será visualizada na tela. As tags vêm sempre entre sinais de < e >. A cada nova versão de browsers, novas tags são acrescentadas ao código de programação html pelo World Wide Web Consortium."
+    },
+
+    {
+        "terminologia" : "tcp",
+        "definition" : "Transfer Control Protocol/Internet Protocol ou Protocolo de Controle de Transmissão/Protocolo de Internet. É o protocolo de comunicação utilizado na Internet. O IP cuida do endereçamento das máquinas, e o TCP do transporte de informações sobre duas máquinas com endereço IP. É sem dúvida o protocolo aberto mais difundido e utilizado em todo o planeta. "
+    },
+
+    {
+        "terminologia" : "tdma",
+        "definition" : "Time Division Multiple Access, ou Acesso Múltiplo por Divisão de Tempo. Tecnologia digital em que várias mensagens são transmitidas simultaneamente pelo mesmo canal, em intervalos de tempo distintos. Permite que até três usuários ocupem uma mesma freqüência."
+    },
+
+    {
+        "terminologia" : "telnet",
+        "definition" : "Protocolo que permite ao usuário da Internet se conectar a um computador remoto, como se estivesse utilizando um terminal baseado em texto diretamente conectado àquele computador."
+    },
+
+    {
+        "terminologia" : "tls",
+        "definition" : "Transport Layer Security, Segurança de Camada de Transporte. Protocolo semelhante ao SSL."
+    },
+
+    {
+        "terminologia" : "trojan",
+        "definition" : "Um programa destrutivo disfarçado de jogo, utilitário ou aplicação. Quando executado, o cavalo de Tróia produz algum efeito danoso ao sistema, ao mesmo tempo em que parece estar realizando uma tarefa útil."
+    },
+
+    {
+        "terminologia" : "uc",
+        "definition" : "Um dos elementos básicos de um computador. A unidade de controle acessa seqüencialmente instruções de programas, decodifica essas instruções e coordena o fluxo de dados que entram e saem da ULA (Unidade Lógico−Aritmética), dos registradores, das memórias principal e secundária dos diversos dispositivos de saída."
+    },
+
+    {
+        "terminologia" : "uml",
+        "definition" : "Unified Modeling Language. Trata−se de uma notação padronizada usada para modelar objetos reais, como um primeiro passo da implementação de programas orientados a objetos. Foi criada a partir de três outras notações de orientação a objetos criadas por cientistas da área."
+    },
+
+    {
+        "terminologia" : "unix",
+        "definition" : "Um sistema operacional multiusário, multitarefa originalmente desenvolvido pela AT &T. O Unix foi totalmente desenvolvido em linguagem C, fazendo com que o Unix seja executado numa variedade maior de hardware do que qualquer outro sistema. Atualmente diversas empresas possuem sua versão própria do Unix, como é o caso da HP e da IBM."
+    },
+
+    {
+        "terminologia" : "upgrade",
+        "definition" : "Uma nova versão de um software ou hardware desenvolvido para substituir uma versão antiga do mesmo produto. Tipicamente, as companhias de software vendem upgrades com um desconto para prevenir que usuários mudem para outros produtos."
+    },
+
+    {
+        "terminologia" : "upload",
+        "definition" : "Copiar um arquivo para um servidor remoto."
+    },
+
+    {
+        "terminologia" : "url",
+        "definition" : "Uniform Resource Locator ou Localizador de Recurso Uniforme. Trata−se do modo padrão para expressar uma localização na Internet, traduzido muitas vezes apenas por endereço."
+    },
+
+    {
+        "terminologia" : "usb",
+        "definition" : "Universal Serial Bus. Formato de conexão para periféricos que está sendo adotado pelos modelos de computadores mais novos, e que permite conectar de forma mais prática e rápida todo tipo de periférico (impressora, monitor, mouse e até alto−falantes). É possível conectar até 127 aparelhos em uma única porta USB, com alta velocidade de transmissão."
+    },
+
+    {
+        "terminologia" : "virtual",
+        "definition" : "Existente apenas em potencial, sem efeito real. Em informática é um termo usado para caracterizar um dispositivo que, na realidade, não existe, mas que é simulado pelo computador e pode ser utilizado por um usuário como se existisse."
+    },
+
+    {
+        "terminologia" : "vlan",
+        "definition" : "Virtual Local Area Network ou Redes Locais Virtuais. São grupos de computadores conectados por uma única LAN, mas de acesso restrito. Isto é, uma sub rede da LAN gerenciada e configurada através de equipamentos chamados switchs."
+    },
+
+    {
+        "terminologia" : "vrml",
+        "definition" : "Virtual Reality Modeling Language ou Linguagem de Modelagem de Realidade Virtual. Linguagem de descrição de cena desenvolvida por Mark Pesce e Tony Parisi em 1994, que permite a modelagem e a navegação através de um ambiente tridimensional, ou seja, linguagem de programação que permite a criação de ambientes de três dimensões. Estes ambientes (chamados de mundos/worlds) podem ser mostrados em um navegador."
+    },
+
+    {
+        "terminologia" : "wais",
+        "definition" : "Wide Area Information Server. Serviço de pesquisa e recuperação de documentos que permite a procura de informações em bases de dados distribuídas. Sua principal característica é a conversão automática de formatos para visualização remota de documentos e dados."
+    },
+
+    {
+        "terminologia" : "wan",
+        "definition" : "Wide Area Network ou Rede de Longa Distância. Uma rede que interliga computadores distribuídos em áreas geograficamente separadas."
+    },
+
+    {
+        "terminologia" : "wap",
+        "definition" : "Wireless Application Protocol ou Protocolo de Aplicações sem Fio. É uma tecnologia desenvolvida especialmente para permitir acesso à Internet (incluindo e−mail, Web, etc.) a telefones móveis celulares e rádios transceptores digitais."
+    },
+
+    {
+        "terminologia" : "whois",
+        "definition" : "Recurso que permite acesso a um banco de dados de informações sobre domínios, redes, hosts e pessoas, fornecendo um serviço de diretórios de usuários da Internet."
+    },
+
+    {
+        "terminologia" : "wml",
+        "definition" : "Linguagem padrão XML criada especificamente para os microbrowsers. O protocolo WAP também suporta uma linguagem chamada WMLScript, similar ao JavaScript, porém mais leve e com menor requerimento de memória e processador."
+    },
+
+    {
+        "terminologia" : "worm",
+        "definition" : "Um programa ou algoritmo que copia a si mesmo através de uma rede de computadores e usualmente executa ações danosas, tais como usar ou sobrecarregar o computador e possivelmente reiniciá−lo."
+    },
+
+    {
+        "terminologia" : "www",
+        "definition" : "World Wide Web. Sistema de hipermídia desenvolvido por Timothy Berners−Lee, em 1990, no CERN, é a mais importante aplicação da Internet. O termo é usado em geral como sinônimo de Internet; mas numa definição rígida, refere−se às aplicações da Rede que usam o HTTP, protocolo de transferência de hipertexto (baseado na linguagem HTML). Na prática, isso exclui a maior parte das aplicações de e−mail, de FTP (protocolo de transmissão de arquivos) e a Usenet, por exemplo."
+    },
+
+    {
+        "terminologia" : "xml",
+        "definition" : "Extensible Markup Language. É uma linguagem universal para permitir a troca de informações de forma estruturada através da Internet. Permite que os programadores transportem dados de um servidor para outro da rede de forma transparente e organizada."
+    },
+
+    {
+        "terminologia" : "xms",
+        "definition" : "Extended Memory Specification. Padrão que permite ao DOS utilizar a memória além dos 640 Kbytes."
+    },
+
+    {
+        "terminologia" : "zif",
+        "definition" : "Zero Insert Force. Sistema baseado em alavanca para introdução ou remoção de dispositivos com o mínimo de força."
+    },
+
+    {
+        "terminologia" : "zip",
+        "definition" : "Formato de compressão mais usado na Rede. Qualquer software baixado da Net vem comprimido neste formato e requer um programa, como o Winzip ou similar, para descomprimir."
+    }
+
 ]
