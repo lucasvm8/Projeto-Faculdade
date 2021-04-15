@@ -1,7 +1,7 @@
 const fs = require("fs");
 const pdf = require("pdf-parse");
 
-let filePath = "file.pdf";
+let filePath = "uploads/file.pdf";
 let pdfFile = fs.readFileSync(filePath);
 
 async function readPdf() {
@@ -28,7 +28,7 @@ async function quantidadeDeCaracteres() {
     let array = [];
 
     for (i in data) {
-      if (data[i].length > 3) {
+      if (data[i].length > 6) {
         array[i] = data[i];
       }
     }
