@@ -7,7 +7,7 @@ xhttp.onreadystatechange = () => {
   if (xhttp.readyState === 4) {
     if (xhttp.status === 200) {
       let classe = JSON.parse(xhttp.responseText);
-      console.log(classe[0].class.split(' ')[0]);
+      console.log(classe[0].class.split(" ")[0]);
     }
   }
 };
