@@ -68,4 +68,4 @@ async function topDezPalavras() {
   }
 }
 
-readPdf();
+topDezPalavras();
