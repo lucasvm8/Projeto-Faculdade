@@ -1,6 +1,8 @@
+const { response } = require("express");
 const express = require("express");
 const app = express();
 const multer = require("multer");
+const teste = require("./script");
 
 app.set("view engine", "ejs");
 
@@ -15,12 +17,13 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-app.get("/", (req, res) => {
-  res.render("index");
+app.post("/", async function (req, res) {
+  const content = await readPdf();
+  res.send(content);
 });
 
-app.post("/upload", upload.single("file"), (req, res) => {
-  res.render("resposta");
+app.get("/", (req, res) => {
+  res.render("index");
 });
 
 app.listen(8080, () => {
