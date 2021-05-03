@@ -91,14 +91,14 @@ app.post("/upload", upload.single("file"), async function (req, res) {
         }
       }
     
-    
     async function apresentar() {
-        const data = await terminologiasTexto()
-        res.send(data)
-    }
+    const data = await terminologiasTexto()
+    res.render("resposta", {
+    termin: data
+    })}
 
-    apresentar()
-
+  apresentar()
+    
 });
 
 
