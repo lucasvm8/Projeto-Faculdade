@@ -72,7 +72,7 @@ app.post("/upload", upload.single("file"), async function (req, res) {
       for (i = 0; i < data.length; i++) {
         for (j = 0; j < term.length; j++)
           if (data[i] == term[j].terminologia) {
-            array[i] = JSON.stringify(term[j]);
+            array[i] = JSON.stringify(term[j] ,4);
           }
       }
 
@@ -86,14 +86,62 @@ app.post("/upload", upload.single("file"), async function (req, res) {
     }
   }
 
+  async function quantidadeDeCaracteres() {
+    try {
+      let data = await separarPalavras(pdfFile);
+      let array = [];
+  
+      for (i in data) {
+        if (data[i].length > 6) {
+          array[i] = data[i];
+        }
+      }
+  
+      let palavrasMaiorQueDois = array.filter(function (el) {
+        return el != null;
+      });
+  
+      return palavrasMaiorQueDois;
+    } catch (err) {
+      console.log(err);
+    }
+  }
+  
+  async function agruparPalavras() {
+    try {
+      let data = await quantidadeDeCaracteres(filePath);
+      return data.reduce((acc, curr) => {
+        acc[curr] = (acc[curr] || 0) + 1;
+        return acc;
+      }, {});
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+  // async function topDezPalavras() {
+  //   try {
+  //     let data = await agruparPalavras(filePath);
+  //     return  Object.entries.then(data)
+  //         .sort((a, b) => b[1] - a[1])
+  //         .slice(0, 10)
+  //     ;
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }
+
   async function apresentar() {
     const data = await terminologiasTexto();
+    const datap = await agruparPalavras();
     res.render("resposta", {
       termin: data,
+      palavr: JSON.stringify(datap),
     });
   }
 
   apresentar();
+
 });
 
 app.listen(4200, () => {
