@@ -73,10 +73,10 @@ app.post("/upload", upload.single("file"), async function (req, res) {
       for (i = 0; i < data.length; i++) {
         for (j = 0; j < term.length; j++)
           if (data[i] == term[j].terminologia) {
-            array[i] = JSON.stringify(term[j], 4);
+            array[i] = data[i];
           }
-      }
-
+        }
+        
       var unico = array.filter(function (elem, index, self) {
         return index === self.indexOf(elem);
       });
