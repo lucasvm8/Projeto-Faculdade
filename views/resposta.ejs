@@ -12,16 +12,18 @@
     <h1>Terminologias: </h1>
     <ul>
         <% termin.forEach(function (terminologia) { %>
-        <li>
+            <input type="checkbox" id=<%= terminologia %>>
             <%= terminologia %>
-        </li>
+        
         <% }); %>
+    </br>
+    <button>Checar Definições</button>
     </ul>
+
     <h1>Principais Palavras: </h1>
+    <%= palavr %>
 
-    <p><%= palavr %></p>
-
-
+        
 </body>
 
    <script>
@@ -36,3 +38,4 @@
     </script>
 
 </html>
+
