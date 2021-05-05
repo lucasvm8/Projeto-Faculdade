@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const multer = require("multer");
+const babel = require("babel-polyfill")
 const { toNamespacedPath } = require("path");
 
 app.set("view engine", "ejs");
@@ -72,7 +73,7 @@ app.post("/upload", upload.single("file"), async function (req, res) {
       for (i = 0; i < data.length; i++) {
         for (j = 0; j < term.length; j++)
           if (data[i] == term[j].terminologia) {
-            array[i] = JSON.stringify(term[j] ,4);
+            array[i] = JSON.stringify(term[j], 4);
           }
       }
 
@@ -90,23 +91,23 @@ app.post("/upload", upload.single("file"), async function (req, res) {
     try {
       let data = await separarPalavras(pdfFile);
       let array = [];
-  
+
       for (i in data) {
         if (data[i].length > 6) {
           array[i] = data[i];
         }
       }
-  
+
       let palavrasMaiorQueDois = array.filter(function (el) {
         return el != null;
       });
-  
+
       return palavrasMaiorQueDois;
     } catch (err) {
       console.log(err);
     }
   }
-  
+
   async function agruparPalavras() {
     try {
       let data = await quantidadeDeCaracteres(filePath);
@@ -119,17 +120,17 @@ app.post("/upload", upload.single("file"), async function (req, res) {
     }
   }
 
-  // async function topDezPalavras() {
-  //   try {
-  //     let data = await agruparPalavras(filePath);
-  //     return  Object.entries.then(data)
-  //         .sort((a, b) => b[1] - a[1])
-  //         .slice(0, 10)
-  //     ;
-  //   } catch (err) {
-  //     console.log(err);
-  //   }
-  // }
+  async function topDezPalavras() {
+    try {
+      let data = await agruparPalavras(filePath);
+      return Object.entries
+        .then(data)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
+    } catch (err) {
+      console.log(err);
+    }
+  }
 
   async function apresentar() {
     const data = await terminologiasTexto();
@@ -141,7 +142,6 @@ app.post("/upload", upload.single("file"), async function (req, res) {
   }
 
   apresentar();
-
 });
 
 app.listen(4200, () => {

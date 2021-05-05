@@ -10,9 +10,13 @@
 <body>
     
     <h1>Terminologias: </h1>
-
-    <p><%= termin %></p>
-
+    <ul>
+        <% termin.forEach(function (terminologia) { %>
+        <li>
+            <%= terminologia %>
+        </li>
+        <% }); %>
+    </ul>
     <h1>Principais Palavras: </h1>
 
     <p><%= palavr %></p>
