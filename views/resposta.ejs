@@ -11,30 +11,73 @@
     
     <h1>Terminologias: </h1>
     <ul>
+
         <% termin.forEach(function (terminologia) { %>
+            
             <input type="checkbox" id=<%= terminologia %>>
+
             <%= terminologia %>
         
         <% }); %>
+
     </br>
     <button>Checar Definições</button>
+    
     </ul>
 
     <h1>Principais Palavras: </h1>
+    
     <%= palavr %>
 
-        
+
+    <ul id="videos"></ul>
+    <ul id="result"></ul>
+
+    
+
 </body>
 
    <script>
    
-    var array = []
-    var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
-    
-    for (var i = 0; i < checkboxes.length; i++) {
-      array.push(checkboxes[i].value)
-    }
-    
+   var originalVideoList = [
+    "def1",
+    "def2",
+    "def3",
+    "def4",
+    "def8"
+];
+
+var videos = document.querySelector("#videos");
+var result = document.querySelector("#result");
+
+
+
+var template = "<li><label for='{0}'>Video {1}</label><input id='{0}' type='checkbox' onchange='onChange()'/></li>";
+
+
+var selectedArray = [];
+
+
+videos.innerHTML = originalVideoList.map(function(video) {
+  return template.replace(/\{0\}/g, video).replace(/\{1\}/g, video.split("/").pop());
+}).join("");
+
+
+function onChange() {
+  selectedArray = toArray(document.querySelectorAll("li>input:checked")).map(function(item) {
+    return item.id.replace("####.###", ".");
+  });
+  result.innerHTML = selectedArray.map(function(video) {
+    return "<li>" + video + "</li>";
+  }).join("");
+}
+
+
+function toArray(input) {
+  var result = [];
+  for (var index = 0; index < input.length; index++) result[index] = input[index];
+  return result;
+}
     </script>
 
 </html>
