@@ -3,8 +3,12 @@ const app = express();
 const multer = require("multer");
 const babel = require("babel-polyfill")
 const { toNamespacedPath } = require("path");
+const bodyParser = require("body-parser");
 
 app.set("view engine", "ejs");
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -142,7 +146,20 @@ app.post("/upload", upload.single("file"), async function (req, res) {
   }
 
   apresentar();
+
 });
+
+
+app.post("/definition", function(req, res) {
+
+var termi = JSON.stringify(req.body)
+
+res.render("definition", {
+  resp: termi
+})
+
+});
+
 
 app.listen(4200, () => {
   console.log("Servidor rodando!");
