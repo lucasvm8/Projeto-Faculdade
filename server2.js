@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const multer = require("multer");
-const babel = require("babel-polyfill")
+const babel = require("babel-polyfill");
 const { toNamespacedPath } = require("path");
 const bodyParser = require("body-parser");
 
@@ -79,8 +79,8 @@ app.post("/upload", upload.single("file"), async function (req, res) {
           if (data[i] == term[j].terminologia) {
             array[i] = data[i];
           }
-        }
-        
+      }
+
       var unico = array.filter(function (elem, index, self) {
         return index === self.indexOf(elem);
       });
@@ -146,20 +146,47 @@ app.post("/upload", upload.single("file"), async function (req, res) {
   }
 
   apresentar();
-
 });
 
+app.post("/definition", function (req, res) {
+  const fs = require("fs");
 
-app.post("/definition", function(req, res) {
+  const terminologia = "./terminologia.json";
+  const terminologias = fs.readFileSync(terminologia);
 
-var termi = JSON.stringify(req.body)
+  async function terminologiasAll() {
+    var body = await JSON.stringify(req.body);
+    var data = body.toLowerCase().match(/\w[A-Za-zÀ-ú]+/g, "")
+    var term = await JSON.parse(terminologias);
+    let array = [];
 
-res.render("definition", {
-  resp: termi
-})
+     for (i = 0; i < data.length; i++) {
+       for (j = 0; j < term.length; j++)
+         if (data[i] == term[j].terminologia) {
+           array[i] = JSON.stringify(term[j])
+        }
+     }
 
+     var unico = array.filter(function (elem, index, self) {
+      return index === self.indexOf(elem);
+    });
+
+    return unico;
+    }
+
+    
+    async function apresentar(){
+    let termin = await terminologiasAll()
+    
+    // alert(JSON.stringify(termin))
+    
+    res.render("definition", {
+      resp: termin,
+    });
+  }
+
+  apresentar();
 });
-
 
 app.listen(4200, () => {
   console.log("Servidor rodando!");
