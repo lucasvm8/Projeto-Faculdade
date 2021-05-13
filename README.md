@@ -18,10 +18,8 @@
    npm i multer
    ```
    ```sh
-   npm i cors
+   npm i body-parser
    ```
-   ```sh
-   npm i node-fetch
-   ```
-3. go to http://localhost:8080
+  
+3. go to http://localhost:4200
 
