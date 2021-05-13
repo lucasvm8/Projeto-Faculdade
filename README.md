@@ -1,12 +1,12 @@
-# Aplica
+# Aplicação
 
 1. Clone the repo
    ```sh
    git clone https://github.com/lucasvm8/Projeto-Faculdade
    ```
-2. Install NPM packages
+2. Dependências NPM packages
    ```sh
-   npm i express --save
+   npm i express
    ```
    ```sh
    npm i pdf-parse
