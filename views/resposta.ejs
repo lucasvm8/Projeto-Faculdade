@@ -5,24 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-
-    //   function myFunction(){
-    //   var terminologia = document.querySelectorAll('[id=terminologia]');
-    //   terminologia.forEach(t => {
-    //     if(t.checked){
-    //       console.log(t.name)
-    //     };
-    //   });
-    // }
-    
+    <script type="text/javascript" src="api.js"></script>
   </script>
 </head>
 
-
-
 <body>
-    
     <h1>Terminologias: </h1>
     
     <form action="/definition" method="POST">
@@ -30,22 +17,20 @@
       <% termin.forEach(function (terminologia) { %>   
         <input type="checkbox" id="terminologia" name=<%= terminologia %>>
         <%= terminologia %>
+      <% }); %>
+
+    
+    <h1>Principais Palavras: </h1>
+
+    
+    <% palavr.forEach(function (palavra) { %>
+      <input type="checkbox" id="palavra" name=<%= palavra %>>
+      <%= palavra[0] %>
     <% }); %>
 
     <button type="submit">Definições</button>
 
     </form>
-
-    <!-- <button onClick="myFunction()">Checar Definições</button> -->
-
-
-
-    
-    <h1>Principais Palavras: </h1>
-    
-    <%= palavr %>
-
-
 </body>
 
 </html>

@@ -4,6 +4,7 @@ const multer = require("multer");
 const babel = require("babel-polyfill");
 const { toNamespacedPath } = require("path");
 const bodyParser = require("body-parser");
+const { json } = require("body-parser");
 
 app.set("view engine", "ejs");
 
@@ -124,24 +125,27 @@ app.post("/upload", upload.single("file"), async function (req, res) {
     }
   }
 
-  async function topDezPalavras() {
+  async function topDez() {
     try {
       let data = await agruparPalavras(filePath);
-      return Object.entries
-        .then(data)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 10);
-    } catch (err) {
-      console.log(err);
+      let dataRemap = await Object.entries(data);
+
+      dataRemap.sort((a, b) => b[1] - a[1]);
+
+      dataRemap = dataRemap.slice(0, 10);
+
+      return dataRemap;
+    } catch (error) {
+      console.log(error);
     }
   }
 
   async function apresentar() {
     const data = await terminologiasTexto();
-    const datap = await agruparPalavras();
+    const datap = await topDez();
     res.render("resposta", {
       termin: data,
-      palavr: JSON.stringify(datap),
+      palavr: datap,
     });
   }
 
@@ -156,32 +160,39 @@ app.post("/definition", function (req, res) {
 
   async function terminologiasAll() {
     var body = await JSON.stringify(req.body);
-    var data = body.toLowerCase().match(/\w[A-Za-zÀ-ú]+/g, "")
+    var data = body.toLowerCase().match(/\w[A-Za-zÀ-ú]+/g, "");
     var term = await JSON.parse(terminologias);
     let array = [];
 
-     for (i = 0; i < data.length; i++) {
-       for (j = 0; j < term.length; j++)
-         if (data[i] == term[j].terminologia) {
-           array[i] = JSON.stringify(term[j])
+    for (i = 0; i < data.length; i++) {
+      for (j = 0; j < term.length; j++)
+        if (data[i] == term[j].terminologia) {
+          array[i] = JSON.stringify(term[j]);
         }
-     }
+    }
 
-     var unico = array.filter(function (elem, index, self) {
+    var unico = array.filter(function (elem, index, self) {
       return index === self.indexOf(elem);
     });
 
     return unico;
-    }
+  }
 
-    
-    async function apresentar(){
-    let termin = await terminologiasAll()
-    
+  async function palavras() {
+    var body = await JSON.stringify(req.body);
+
+    return body;
+  }
+
+  async function apresentar() {
+    let termin = await terminologiasAll();
+    let palavra = await palavras();
+
     // alert(JSON.stringify(termin))
-    
+
     res.render("definition", {
       resp: termin,
+      pala: palavra
     });
   }
 

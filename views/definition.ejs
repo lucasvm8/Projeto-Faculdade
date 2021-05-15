@@ -8,9 +8,23 @@
 </head>
 <body>
 
-   <p>resultado</p>
+    <center>
+        <h1>
+            Terminologias
+        </h1>
+    </center>
+    <ol>
+        <% resp.forEach(function (terminologia) { %>   
+          <li>  <%= terminologia  %> </li>
+        </br>
+        <% }); %>
+    </ol>
 
-   <%= resp %>
-
+    <center>
+        <h1>
+            Palavras
+        </h1>
+       
+    </center>
 </body>
 </html>
