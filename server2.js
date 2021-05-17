@@ -199,6 +199,20 @@ app.post("/definition", function (req, res) {
   apresentar();
 });
 
+
+app.post('/definition/pdf', function (req, res) {
+  fs = require('fs')
+  var filePath = "/uploads/file.pdf";
+
+  fs.readFile(__dirname + filePath , function (err,data){
+      res.contentType("application/pdf");
+      res.send(data);
+  });
+});
+
+
+
+
 app.listen(4200, () => {
   console.log("Servidor rodando!");
 });
