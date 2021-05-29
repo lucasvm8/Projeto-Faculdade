@@ -1,0 +1,120 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px
+}
+
+h1 {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: 69px;
+}
+
+h2 {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: 29px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    width: 1000px;
+    height: 900px;
+    background: #3673CC;
+    display: flex;
+    justify-content: center;
+  }
+
+.boxForm {
+
+    align-content: center;
+    margin-top: 40px;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+ 
+}
+
+.boxButton {
+    margin-top: 50px;
+
+}
+
+input.file {
+    background-color: #3673CC;
+    border-color: ivory;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.upload-btn-wrapper {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid white;
+    color: white;
+    background-color: #3673CC;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.boxButton1 {
+    margin-top: 10px;
+
+}
+
+.button {
+    border: 2px solid white;
+    color: white;
+    background-color: #3673CC;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+  
