@@ -133,7 +133,7 @@ app.post("/upload", upload.single("file"), async function (req, res) {
 
       dataRemap.sort((a, b) => b[1] - a[1]);
 
-      dataRemap = dataRemap.slice(0, 10);
+      dataRemap = dataRemap.slice(0, 100);
 
       return dataRemap;
     } catch (error) {

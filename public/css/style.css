@@ -1,6 +1,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    margin: 0px
+    margin: 0px;
+    color: white;
 }
 
 h1 {
@@ -42,19 +43,46 @@ h4 {
   }
 
 .boxForm {
-
+  
     align-content: center;
     margin-top: 40px;
     position: absolute;
-    text-align: center;
     width: 500px;
     height: 200px;
  
 }
 
+.boxForm1 {
+
+    align-content: center;
+    margin-top: 40px;
+    position: absolute;
+    width: 500px;
+    height: 700px;
+ 
+}
+
+
+
 .boxButton {
     margin-top: 50px;
 
+}
+
+.checkboxSpace {
+    margin-top: 5px;
+    background-color: #3673CC;
+    width: 158px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.divPalavras {
+    width: 510px;
+    height: 290px;
+    background-color: #3673CC;
+    overflow: scroll;
 }
 
 input.file {
@@ -77,6 +105,7 @@ input.file {
     position: relative;
     overflow: hidden;
     display: inline-block;
+    
   }
   
   .btn {
@@ -100,8 +129,12 @@ input.file {
   }
 
 .boxButton1 {
-    margin-top: 10px;
+    margin-top: 810px;
 
+}
+
+.boxButton2 {
+    margin-top: 30px;
 }
 
 .button {
@@ -116,5 +149,37 @@ input.file {
   }
 
 
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #3673CC; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(189, 189, 189); 
+  }
+
+ 
+  ::-webkit-scrollbar-corner { background: #3673CC; }
   

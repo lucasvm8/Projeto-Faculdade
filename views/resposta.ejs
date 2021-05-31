@@ -22,23 +22,48 @@
     
     <form action="/definition" method="POST">
 
-      <% termin.forEach(function (terminologia) { %>   
-        <input type="checkbox" id="terminologia" name=<%= terminologia %>>
-        <%= terminologia %>
-      <% }); %>
+      <div class="divPalavras">
+        <div class="group">
+  
+      
+        <% termin.forEach(function (terminologia) { %>  
+          <div class="checkboxSpace">
+          <input type="checkbox" id="terminologia" name=<%= terminologia %>>
+          <%= terminologia %>
+        </div>
+        <% }); %>
+    
+      
+    </div>
+  
+      
+      </div>
 
     
     <h2>Principais Palavras: </h2>
+      
+    <div class="divPalavras">
+      <div class="group">
 
     
-    <% palavr.forEach(function (palavra) { %>
-      <input type="checkbox" id="palavra" name=<%= palavra %>>
-      <%= palavra[0] %>
-    <% }); %>
+      <% palavr.forEach(function (palavra) { %>
+        <div class="checkboxSpace">
+        <input type="checkbox" id="palavra" name=<%= palavra %>>
+      
+        <%= palavra[0] %>
+        </div>
+      <% }); %>
+    
+  </div>
+
+    
+    </div>
+    </div>
+
 
     <div class="boxButton1">   
         <button type="submit" class="button">Definições</button>
-        </div> 
+    </div> 
 
     </form>
   </div>
