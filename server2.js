@@ -180,14 +180,69 @@ app.post("/definition", function (req, res) {
   }
 
   async function palavras() {
-    var body = await JSON.stringify(req.body);
-
-    return body;
+    
+      var body = await JSON.stringify(req.body);
+      var data = body.toLowerCase().match(/\w[A-Za-zÀ-ú]+/g, "");
+      let array = [];
+      
+      for(i in data){
+        if(data[i] != 'on'){
+          array[i] = data[i]
+        }
+      }
+    
+    return array;
   }
+
+  async function filtrarPalavras() {
+    var data = await palavras()
+    var term = await JSON.parse(terminologias);
+    var array = [];
+
+    for (i = 0; i < data.length; i++){
+      for(j = 0; j < term.length; j++){
+        if(data[i] != undefined){
+            array.push(data[i])
+            }
+          }
+        }
+      
+    var unico = array.filter(function (elem, index, self) {
+      return index === self.indexOf(elem);
+    });
+    console.log(term.length)
+    console.log(term[3].terminologia == '3g')
+
+    return unico;
+  }
+
+    async function filtrarTerminologias() {
+      var data = await filtrarPalavras()
+      var term = await JSON.parse(terminologias);
+      var array = [];
+      
+      try {
+        for (i = 0; i < data.length; i++){
+          for(j = 0; j < term.length; j++){
+            if(data[i] != term[j].terminologia){
+                array[i] = data[i]
+            }
+          }
+        }
+      } catch (err) {
+        console.log(err)
+      }
+      console.log(data.length)
+
+      return array;
+    }
+
+ 1 == 1;
+ 1 != 1;
 
   async function apresentar() {
     let termin = await terminologiasAll();
-    let palavra = await palavras();
+    let palavra = await filtrarTerminologias();
 
     // alert(JSON.stringify(termin))
 

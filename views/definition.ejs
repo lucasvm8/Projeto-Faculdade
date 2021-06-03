@@ -25,13 +25,18 @@
         <% }); %>
     </ol>
 
-   
+    
         <h2>
-            Top 100 Palavras
+            Palavras
         </h2>
        
-    
-
+        <ol>
+            <% pala.forEach(function (palavras) { %>   
+              <li>  <%= palavras  %> </li>
+            </br>
+            <% }); %>
+        </ol>
+        
     <form action="/definition/pdf" method="POST">
         <div class="boxButton1">   
             <button type="submit" class="button">LER PDF</button>
