@@ -190,7 +190,7 @@ app.post("/definition", function (req, res) {
           array[i] = data[i]
         }
       }
-    
+
     return array;
   }
 
@@ -201,7 +201,7 @@ app.post("/definition", function (req, res) {
 
     for (i = 0; i < data.length; i++){
       for(j = 0; j < term.length; j++){
-        if(data[i] != undefined){
+        if(data[i] != undefined && term[j].terminologia !== data[i]){
             array.push(data[i])
             }
           }
@@ -210,9 +210,7 @@ app.post("/definition", function (req, res) {
     var unico = array.filter(function (elem, index, self) {
       return index === self.indexOf(elem);
     });
-    console.log(term.length)
-    console.log(term[3].terminologia == '3g')
-
+    
     return unico;
   }
 
@@ -220,6 +218,7 @@ app.post("/definition", function (req, res) {
       var data = await filtrarPalavras()
       var term = await JSON.parse(terminologias);
       var array = [];
+      var array2 = [];
       
       try {
         for (i = 0; i < data.length; i++){
@@ -227,16 +226,22 @@ app.post("/definition", function (req, res) {
             if(data[i] != term[j].terminologia){
                array[i] = data[i]
             }
+            if(data[i] == term[j].terminologia){
+              array2[i] = data[i]
+            }
           }
-
         }
+        array = array.filter(function (objeto){
+          return array2.indexOf(objeto) == -1
+        })
       } catch (err) {
         console.log(err)
       }
-      console.log(array)
 
       return array;
     }
+
+    
 
   async function apresentar() {
     let termin = await terminologiasAll();
