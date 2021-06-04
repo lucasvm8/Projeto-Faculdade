@@ -225,20 +225,18 @@ app.post("/definition", function (req, res) {
         for (i = 0; i < data.length; i++){
           for(j = 0; j < term.length; j++){
             if(data[i] != term[j].terminologia){
-                array[i] = data[i]
+               array[i] = data[i]
             }
           }
+
         }
       } catch (err) {
         console.log(err)
       }
-      console.log(data.length)
+      console.log(array)
 
       return array;
     }
-
- 1 == 1;
- 1 != 1;
 
   async function apresentar() {
     let termin = await terminologiasAll();
