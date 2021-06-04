@@ -14,34 +14,39 @@
         <div class="box">
           <div class="boxForm">
 
-        <h2>
-            Terminologias
-        </h2>
-   
-    <ol>
-        <% resp.forEach(function (terminologia) { %>   
-          <li>  <%= terminologia  %> </li>
-        </br>
-        <% }); %>
-    </ol>
-
+            <h2>
+                Definições
+            </h2>
     
-        <h2>
-            Palavras
-        </h2>
+            <div class="divDefinicoes">
+                <div class="group">
        
         <ol>
-            <% pala.forEach(function (palavras) { %>   
-              <li>  <%= palavras  %> </li>
+            <% resp.forEach(function (terminologia) { %>   
+              <li>  <%= terminologia  %> </li>
             </br>
             <% }); %>
         </ol>
+
+        <ol>
+        <% pala.forEach(function (palavras) { %>   
+            <li>  <%= palavras  %> </li>
+          </br>
+          <% }); %>
+        </ol>
+                </div>
+            </div>
+            
+    
         
-    <form action="/definition/pdf" method="POST">
-        <div class="boxButton1">   
-            <button type="submit" class="button">LER PDF</button>
-        </div> 
-    </form>
+        
+        <form action="/definition/pdf" method="POST">
+            <div class="boxButton2">
+            <center>  
+                <button type="submit" class="button">LER PDF</button>
+            </center>
+            </div>  
+        </form>
 
 </body>
 </html>
