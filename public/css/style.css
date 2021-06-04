@@ -1,185 +1,193 @@
 body {
-    font-family: 'Work Sans', sans-serif;
-    margin: 0px;
-    color: white;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+  color: white;
 }
 
 h1 {
-    font-style: italic;
-    color: white;
-    text-align: center;
-    font-size: 69px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  font-size: 69px;
 }
 
 h2 {
-    font-style: italic;
-    color: white;
-    text-align: center;
-    font-size: 29px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  font-size: 29px;
 }
 
 h4 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
 
 .box {
-    width: 1000px;
-    height: 900px;
-    background: #3673CC;
-    display: flex;
-    justify-content: center;
-  }
+  width: 1000px;
+  height: 900px;
+  background: #3673CC;
+  display: flex;
+  justify-content: center;
+}
 
 .boxForm {
-  
-    align-content: center;
-    margin-top: 40px;
-    position: absolute;
-    width: 500px;
-    height: 200px;
- 
+
+  align-content: center;
+  margin-top: 40px;
+  position: absolute;
+  width: 500px;
+  height: 200px;
+
 }
 
 .boxForm1 {
 
-    align-content: center;
-    margin-top: 40px;
-    position: absolute;
-    width: 500px;
-    height: 700px;
- 
+  align-content: center;
+  margin-top: 40px;
+  position: absolute;
+  width: 500px;
+  height: 700px;
+
 }
 
 
 
 .boxButton {
-    margin-top: 50px;
+  margin-top: 50px;
 
 }
 
 .checkboxSpace {
-    margin-top: 5px;
-    background-color: #3673CC;
-    width: 158px;
-    height: 25px;
-    display: inline-block;
-    margin-left: 2px;
+  margin-top: 5px;
+  background-color: #3673CC;
+  width: 158px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 2px;
 }
 
 .divPalavras {
-    width: 510px;
-    height: 290px;
-    background-color: #3673CC;
-    overflow: scroll;
+  width: 510px;
+  height: 290px;
+  background-color: #3673CC;
+  overflow: scroll;
+}
+
+.divDefinicoes {
+width: 490px;
+height: 650px;
+background-color: #3673CC;
+overflow: scroll;
+text-align: justify;
+padding: 10px;
 }
 
 input.file {
-    background-color: #3673CC;
-    border-color: ivory;
-    border-radius: 10px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+  background-color: #3673CC;
+  border-color: ivory;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 
 }
 
 .upload-btn-wrapper {
-    margin-top: 50px;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    
-  }
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
   
-  .btn {
-    border: 2px solid white;
-    color: white;
-    background-color: #3673CC;
-    padding: 8px 20px;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: bold;
-    
-  }
+}
+
+.btn {
+  border: 2px solid white;
+  color: white;
+  background-color: #3673CC;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
   
-  .upload-btn-wrapper input[type=file] {
-    font-size: 100px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    cursor: pointer;
-  }
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
 
 .boxButton1 {
-    margin-top: 810px;
+  margin-top: 810px;
 
 }
 
 .boxButton2 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .button {
-    border: 2px solid white;
-    color: white;
-    background-color: #3673CC;
-    padding: 8px 20px;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+  border: 2px solid white;
+  color: white;
+  background-color: #3673CC;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 
 .group:before,
 .group:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 } 
 .group:after {
-    clear: both;
+  clear: both;
 }
 .group {
-     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #3673CC; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(255, 255, 255); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(189, 189, 189); 
-  }
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3673CC; 
+}
  
-  ::-webkit-scrollbar-corner { background: #3673CC; }
-  
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(189, 189, 189); 
+}
+
+
+::-webkit-scrollbar-corner { background: #3673CC; }
