@@ -5,6 +5,7 @@ const babel = require("babel-polyfill");
 const { toNamespacedPath } = require("path");
 const bodyParser = require("body-parser");
 const { json } = require("body-parser");
+const fetch = require("node-fetch");
 
 app.set("view engine", "ejs");
 
@@ -241,17 +242,38 @@ app.post("/definition", function (req, res) {
       return array;
     }
 
-    
+    async function definicaoDePalavras() {
+      let data = await filtrarTerminologias()
+      let definicao = []
+
+      for(i in data){
+        definicao[i] = data[i] + ': ' + await retornoDefinicao(data[i])
+      }
+
+      return definicao
+    }
+
+    async function retornoDefinicao(palavra) {
+
+        var definition = await fetch("https://significado.herokuapp.com/" + palavra)
+        .then(response => response.json())
+        .then(data => data[0].meanings)
+
+      return definition
+
+    }
 
   async function apresentar() {
     let termin = await terminologiasAll();
     let palavra = await filtrarTerminologias();
+    let definicao = await definicaoDePalavras()
 
     // alert(JSON.stringify(termin))
 
     res.render("definition", {
       resp: termin,
-      pala: palavra
+      pala: palavra,
+      def: definicao
     });
   }
 

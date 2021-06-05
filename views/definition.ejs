@@ -15,7 +15,7 @@
           <div class="boxForm">
 
             <h2>
-                Definições
+                Terminologias
             </h2>
     
             <div class="divDefinicoes">
@@ -27,12 +27,22 @@
             </br>
             <% }); %>
         </ol>
+        <h2>
+            Palavras
+        </h2>
+    
 
-        <ol>
-        <% pala.forEach(function (palavras) { %>   
+        <!-- <% pala.forEach(function (palavras) { %>   
             <li>  <%= palavras  %> </li>
           </br>
           <% }); %>
+        </ol> -->
+
+        <ol>
+            <% def.forEach(function (definicao) { %>   
+                <li>  <%= definicao  %> </li>
+              </br>
+              <% }); %>
         </ol>
                 </div>
             </div>
