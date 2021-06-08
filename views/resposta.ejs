@@ -1,29 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>   </script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGLT - SISTEMA DE GLOSSÁRIO LÉXICO E TERMINOLÓGICO</title>
+    <script type="text/javascript" src="api.js"></script>
+  </script>
 </head>
+
 <body>
+
+  <div class="container">
+    <div class="box">
+      <div class="boxForm">
+
+    <h2>Terminologias: </h2>
     
-    <h1>Terminologias: </h1>
+    <form action="/definition" method="POST">
 
-    <p><%= termin %></p>
+      <div class="divPalavras">
+        <div class="group">
+  
+      
+        <% termin.forEach(function (terminologia) { %>  
+          <div class="checkboxSpace">
+          <input type="checkbox" id="terminologia" name=<%= terminologia %>>
+          <%= terminologia %>
+        </div>
+        <% }); %>
+    
+      
+    </div>
+  
+      
+      </div>
 
+    
+    <h2>Principais Palavras: </h2>
+      
+    <div class="divPalavras">
+      <div class="group">
+
+    
+      <% palavr.forEach(function (palavra) { %>
+        <div class="checkboxSpace">
+        <input type="checkbox" id="palavra" name=<%= palavra %>>
+      
+        <%= palavra[0] %>
+        </div>
+      <% }); %>
+    
+  </div>
+
+    
+    </div>
+    </div>
+
+
+    <div class="boxButton1">   
+        <button type="submit" class="button">Definições</button>
+    </div> 
+
+    </form>
+  </div>
+     
+
+</div>
+</div>
 </body>
 
-   <script>
-   
-    var array = []
-    var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
-    
-    for (var i = 0; i < checkboxes.length; i++) {
-      array.push(checkboxes[i].value)
-    }
-    
-    </script>
-
 </html>
+
