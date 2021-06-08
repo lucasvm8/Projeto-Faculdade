@@ -1,12 +1,12 @@
-# Aplica
+# Aplicação
 
 1. Clone the repo
    ```sh
    git clone https://github.com/lucasvm8/Projeto-Faculdade
    ```
-2. Install NPM packages
+2. Dependências NPM packages
    ```sh
-   npm i express --save
+   npm i express
    ```
    ```sh
    npm i pdf-parse
@@ -18,10 +18,8 @@
    npm i multer
    ```
    ```sh
-   npm i cors
+   npm i body-parser
    ```
-   ```sh
-   npm i node-fetch
-   ```
-3. go to http://localhost:8080
+  
+3. go to http://localhost:4200
 
