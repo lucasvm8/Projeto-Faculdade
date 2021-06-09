@@ -170,7 +170,11 @@ app.post("/definition", function (req, res) {
     for (i = 0; i < data.length; i++) {
       for (j = 0; j < term.length; j++)
         if (data[i] == term[j].terminologia) {
-          array[i] = JSON.stringify(term[j].terminologia)+ ': '+ JSON.stringify(term[j].definition);
+          array[i] = 
+          JSON.stringify(term[j].terminologia).charAt(1).toUpperCase() +
+          JSON.stringify(term[j].terminologia).replace(/\"/g, '').slice(1) +
+           ': '+ 
+          JSON.stringify(term[j].definition).replace(/\"/g, '');
         }
     }
 
