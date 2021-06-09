@@ -166,12 +166,19 @@ app.post("/definition", function (req, res) {
     var term = await JSON.parse(terminologias);
     let array = [];
 
-    for (i = 0; i < data.length; i++) {
-      for (j = 0; j < term.length; j++)
-        if (data[i] == term[j].terminologia) {
-          array[i] = JSON.stringify(term[j]);
-        }
-    }
+     for (i = 0; i < data.length; i++) {
+       for (j = 0; j < term.length; j++)
+         if (data[i] == term[j].terminologia) {
+           array[i] = JSON.stringify(term[j].definition, function (key, value) {
+             if (key == "definition") {
+               return value.toUpperCase();
+             } else {
+               return value;
+             }
+           });
+         }
+     }
+
 
     var unico = array.filter(function (elem, index, self) {
       return index === self.indexOf(elem);
@@ -247,7 +254,7 @@ app.post("/definition", function (req, res) {
       let definicao = []
 
       for(i in data){
-        definicao[i] = data[i] + ': ' + await retornoDefinicao(data[i])
+        definicao[i] = data[i].toUpperCase() + ': ' + await retornoDefinicao(data[i])
       }
 
       return definicao
@@ -255,9 +262,13 @@ app.post("/definition", function (req, res) {
 
     async function retornoDefinicao(palavra) {
 
-        var definition = await fetch("https://significado.herokuapp.com/" + palavra)
-        .then(response => response.json())
-        .then(data => data[0].meanings)
+        //  var definition = await fetch("https://api.dictionaryapi.dev/api/v2/entries/en_US/" + palavra)
+        //  .then(response => response.json())
+        //  .then(data => JSON.stringify(data[0].meanings[0].definitions[0]))
+
+           var definition = await fetch("https://significado.herokuapp.com/" + palavra)
+          .then(response => response.json())
+          .then(data => data[0].meanings)
 
       return definition
 

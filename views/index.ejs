@@ -28,11 +28,11 @@
           <center>
         <div class="upload-btn-wrapper">
           <button class="btn">Selecionar Arquivo</button>
-          <input type="file" name="file" accept="application/pdf" />
+          <input type="file" name="file" id="inputArquivo" accept="application/pdf" />
         </div>
 
         <div class="boxButton2">   
-        <input type="submit" class="button" value="Enviar" />
+        <input onclick="myFunction()" type="submit" class="button" value="Enviar" />
         </div> 
       </center>
         </form>
@@ -42,5 +42,24 @@
 
       </div>
     </div>
+
+    <script>
+      function myFunction() {
+        alert("Arquivo carregado com sucesso.");
+      }
+
+      var div = document.getElementsByClassName("btn")[0];
+      var input = document.getElementById("inputArquivo");
+
+      div.addEventListener("click", function(){
+          input.click();
+      });
+      input.addEventListener("change", function(){
+          var nome = "Não há arquivo selecionado. Selecionar arquivo...";
+          if(input.files.length > 0) nome = input.files[0].name;
+          div.innerHTML = nome;
+      });
+    </script>
+
   </body>
 </html>
