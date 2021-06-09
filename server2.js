@@ -170,13 +170,7 @@ app.post("/definition", function (req, res) {
     for (i = 0; i < data.length; i++) {
       for (j = 0; j < term.length; j++)
         if (data[i] == term[j].terminologia) {
-          array[i] = JSON.stringify(term[j].terminologia, function (key, value){
-            if (key == "terminologia") {
-              return value.toUpperCase();
-            } else {
-              return value;
-            }
-          })+ ': '+ JSON.stringify(term[j].definition);
+          array[i] = JSON.stringify(term[j].terminologia)+ ': '+ JSON.stringify(term[j].definition);
         }
     }
 
@@ -254,7 +248,7 @@ app.post("/definition", function (req, res) {
       let definicao = []
 
       for(i in data){
-        definicao[i] = data[i].toUpperCase() + ': ' + await retornoDefinicao(data[i])
+        definicao[i] = data[i].charAt(0).toUpperCase() + data[i].slice(1) + ': ' + await retornoDefinicao(data[i])
       }
 
       return definicao
