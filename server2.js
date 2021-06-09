@@ -165,11 +165,12 @@ app.post("/definition", function (req, res) {
     var data = body.toLowerCase().match(/\w[A-Za-zÀ-ú]+/g, "");
     var term = await JSON.parse(terminologias);
     let array = [];
+    let array2 = [];
 
     for (i = 0; i < data.length; i++) {
       for (j = 0; j < term.length; j++)
         if (data[i] == term[j].terminologia) {
-          array[i] = JSON.stringify(term[j]);
+          array[i] = JSON.stringify(term[j].terminologia)+ ': '+ JSON.stringify(term[j].definition);
         }
     }
 
