@@ -22,8 +22,8 @@
                 <div class="group">
        
         <ol>
-            <% resp.forEach(function (terminologia) { %>   
-              <li>  <%= terminologia  %> </li>
+            <% terminologia.forEach(function (terminologias) { %>   
+              <li>  <%= terminologias  %> </li>
             </br>
             <% }); %>
         </ol>
@@ -32,8 +32,8 @@
         </h2>
 
         <ol>
-            <% def.forEach(function (definicao) { %>   
-                <li>  <%= definicao  %> </li>
+            <% palavra.forEach(function (palavras) { %>   
+                <li>  <%= palavras  %> </li>
               </br>
               <% }); %>
         </ol>

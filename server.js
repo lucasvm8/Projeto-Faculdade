@@ -160,7 +160,7 @@ app.post("/definition", function (req, res) {
   const terminologia = "./terminologia.json";
   const terminologias = fs.readFileSync(terminologia);
 
-  async function terminologiasAll() {
+  async function definicaoTerminologias() {
     var body = await JSON.stringify(req.body);
     var data = body.toLowerCase().match(/\w[A-Za-zÀ-ú]+/g, "");
     var term = await JSON.parse(terminologias);
@@ -252,7 +252,11 @@ app.post("/definition", function (req, res) {
       let definicao = []
 
       for(i in data){
-        definicao[i] = data[i].charAt(0).toUpperCase() + data[i].slice(1) + ': ' + await retornoDefinicao(data[i])
+        definicao[i] = 
+        data[i].charAt(0).toUpperCase() +
+        data[i].slice(1) + 
+        ': ' + 
+        await retornoDefinicao(data[i])
       }
 
       return definicao
@@ -269,16 +273,13 @@ app.post("/definition", function (req, res) {
     }
 
   async function apresentar() {
-    let termin = await terminologiasAll();
-    let palavra = await filtrarTerminologias();
-    let definicao = await definicaoDePalavras()
+    let defTerminologias = await definicaoTerminologias();
+    let defPalavras = await definicaoDePalavras()
 
-    // alert(JSON.stringify(termin))
 
     res.render("definition", {
-      resp: termin,
-      pala: palavra,
-      def: definicao
+      terminologia: defTerminologias,
+      palavra: defPalavras
     });
   }
 
