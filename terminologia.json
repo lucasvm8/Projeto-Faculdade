@@ -104,6 +104,11 @@
         "terminologia" : "an",
         "definition" : "Access Node. Uma conexão ou ponto de comutação na rede. Executa também vários tipos de conversão de protocolos."
     },
+    
+    {
+        "terminologia" : "angular",
+        "definition" : "Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu." 
+    },
 
     {
         "terminologia" : "anonymous ",
@@ -661,6 +666,11 @@
     },
 
     {
+        "terminologia" : "dmbok",
+        "definition" : "Data Management Body of Knowledge (DAMA DMBOK®) é um framework de boas práticas de gestão de dados, que tem como intuito transmitir a importância da gestão de dados."
+    },
+    
+    {
         "terminologia" : "warehouse",
         "definition" : "Armazém de dados. É um sistema que guarda e organiza todas as informações que estão espalhadas por vários sistemas dentro de uma empresa. Com ele, os executivos podem obter informações sobre tudo e todos."
     },
@@ -713,6 +723,11 @@
     {
         "terminologia" : "dns",
         "definition" : "Domain Name Service ou Serviço de Nome de Domínio. É um serviço e protocolo da família TCP/IP para o armazenamento e consulta a informações sobre recursos de uma rede como a Internet. Sempre que você tenta acessar uma página na Internet, seu computador usa o DNS do provedor para localizar o endereço real da página (no caso o IP)."
+    },
+
+    {
+        "terminologia" : "docker",
+        "definition" : "Docker é um conjunto de produtos de plataforma como serviço (PaaS) que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração. Eles podem se comunicar uns com os outros por meio de canais bem definidos. Todos os contêineres são executados por um único kernel do sistema operacional e, portanto, usam menos recursos do que as máquinas virtuais."
     },
 
     {
@@ -773,6 +788,11 @@
     {
         "terminologia" : "erp",
         "definition" : "Enterprise Resource Planning. Termo usado para sistemas que controlam uma empresa de ponta a ponta, da produção às finanças. Geralmente estão baseados num pacote integrado de gestão empresarial."
+    },
+
+    {
+        "terminologia" : "etl",
+        "definition" : "ETL, do inglês Extract Transform Load (Extrair Transformar Carregar), são ferramentas de software cuja função é a extração de dados de diversos sistemas, transformação desses dados conforme regras de negócios e por fim o carregamento dos dados geralmente para um Data Mart e/ou Data Warehouse, porém nada impede que também seja para enviar os dados para um determinado sistema da organização."
     },
 
     {
@@ -1071,6 +1091,16 @@
     },
 
     {
+        "terminologia" : "js",
+        "definition" : "Linguagem de criação de scripts desenvolvida pela Netscape e pela Sun Microsystems. Serve para incluir funções e aplicações online básicas em páginas Web, mas o número e a complexidade das funções disponíveis são menores do que com Java."
+    },
+
+    {
+        "terminologia" : "json",
+        "definition" : "é um acrônimo de JavaScript Object Notation, é um formato compacto, de padrão aberto independente, de troca de dados simples e rápida (parsing) entre sistemas, especificado por Douglas Crockford em 2000, que utiliza texto legível a humanos, no formato atributo-valor (natureza auto-descritiva). Isto é, um modelo de transmissão de informações no formato texto, muito usado em web services que usa transferência de estado representacional (REST) e aplicações AJAX, substituindo o uso do XML."
+    },
+
+    {
         "terminologia" : "javascript",
         "definition" : "Linguagem de criação de scripts desenvolvida pela Netscape e pela Sun Microsystems. Serve para incluir funções e aplicações online básicas em páginas Web, mas o número e a complexidade das funções disponíveis são menores do que com Java."
     },
@@ -1108,6 +1138,11 @@
     {
         "terminologia" : "kilobyte",
         "definition" : "Equivalente a 1024 bytes."
+    },
+
+    {
+        "terminologia" : "kubernetes",
+        "definition" : "Kubernetes (comumente estilizado como K8s) é um sistema de orquestração de contêineres open-source que automatiza a implantação, o dimensionamento e a gestão de aplicações em contêineres. Ele foi originalmente projetado pelo Google e agora é mantido pela Cloud Native Computing Foundation. Ele funciona com uma variedade de ferramentas de conteinerização, incluindo Docker."
     },
 
     {
@@ -1181,6 +1216,11 @@
     },
 
     {
+        "terminologia" : "mer",
+        "definition" : "Em engenharia de software, um modelo entidade relacionamento (MER) é um modelo de dados para descrever os dados ou aspectos de informação de um domínio de negócio ou seus requisitos de processo, de uma maneira abstrata que em última análise se presta a ser implementada em um banco de dados, como um banco de dados relacional."
+    },
+
+    {
         "terminologia" : "eeprom",
         "definition" : "Electrally Erasable Programmable ROM ou ROM Programável e Apagável Eletricamente. Memória ROM que pode ser programada e apagada eletricamente. Também chamada de E2PROM. "
     },
@@ -1231,6 +1271,11 @@
     },
 
     {
+        "terminologia" : "molap",
+        "definition" : "Multidimensional On Line Analytical Processing - MOLAP deriva-se de OLAP, são ferramentas que disparam suas requisições diretamente ao servidor de Banco de Dados multidimensional. Após o envio da requisição o usuário continua manipulando os dados diretamente no servidor, tendo um ganho no desempenho."
+    },
+    
+    {
         "terminologia" : "mp3",
         "definition" : "MPEG 1 Layer 3. Formato de gravação para arquivos sonoros que possui alta fidelidade e compactação."
     },
@@ -1258,6 +1303,11 @@
     {
         "terminologia" : "multimídia",
         "definition" : "Os equipamentos e softwares com esta tecnologia trabalham simultaneamente com sons, imagens e textos. Em uma mesma tela de computador, você pode receber informações através de vídeos, fotos, gráficos, trilhas sonoras e textos. A Internet está virando cada vez mais um serviço multimídia. Também é importante que esses documentos sejam interativos, ou seja, que permitam a participação do usuário. Para ser mais preciso, utiliza−se também o termo multimídia interativa."
+    },
+
+    {
+        "terminologia" : "multitenancy",
+        "definition" : "Basicamente, um software que implementa o conceito de multitenancy foi desenvolvido para suportar múltiplos inquilinos (aliás, a tradução de tenant é inquilino). Isso quer dizer que uma mesma instância de um software multitenant consegue atender a vários clientes (também designados como inquilinos) diferentes ao mesmo tempo. Pense no desenvolvimento de uma aplicação de gerência financeira, por exemplo. Pode ser que esta aplicação tenha sido concebida para ser como um produto, ou seja: ela foi feita para atender diferentes pessoas em diferentes empresas."
     },
 
     {
@@ -1296,6 +1346,20 @@
     },
 
     {
+        "terminologia" : "npm",
+        "definition" : "é o gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.js. Ele consiste em um cliente de linha de comando, também chamado de npm, e um banco de dados online de pacotes públicos e privados pagos, chamado de registro npm. O registro é acessado por meio do cliente e os pacotes disponíveis podem ser navegados e pesquisados no site do npm."
+    },
+
+    {
+        "definition" : "oauth",
+        "terminologia" : "OAuth é um padrão aberto para autorização, comumente utilizado para permitir que os usuários da Internet possam fazer logon em sites de terceiros usando suas contas do Google, Facebook, Microsoft, Twitter, etc.—mas, sem expor suas senhas."
+    },
+
+    {
+        "terminologia" : "oci",
+        "definition" : "A Oracle Cloud Infrastructure (OCI) é uma IaaS que oferece poder de computação on-premises de alto desempenho, para executar cargas de trabalho de TI nativas em nuvem e empresariais. A OCI fornece elasticidade em tempo real para aplicativos empresariais, combinando serviços autônomos, segurança integrada e computação serverless da Oracle. Disponível para nuvem pública."
+    },
+    {
         "terminologia" : "ocr",
         "definition" : "Optical Caracter Recognition ou Programa óptico de reconhecimento de caracteres. Tecnologia utilizada para transformar a imagem do texto em arquivo texto editável. Geralmente utilizados junto com scanners."
     },
@@ -1314,6 +1378,16 @@
         "terminologia" : "offline",
         "definition" : "Diz−se quando o computador não está conectado."
     },
+ 
+    {
+        "terminologia" : "olap",
+        "definition" : "OLAP (Online Analytical Processing) é a capacidade para manipular e analisar um grande volume de dados sob múltiplas perspectivas. As aplicações OLAP são usadas pelos gestores em qualquer nível da organização para lhes permitir análises comparativas que facilitem a sua tomada de decisões diárias."
+    },
+
+    {
+        "terminologia" : "oltp",
+        "definition" : "OLTP (Online Transaction Processing ou Processamento de Transações em Tempo Real) são sistemas que se encarregam de registrar todas as transações contidas em uma determinada operação organizacional. Por exemplo: sistema de transações bancárias que registra todas as operações efetuadas em um banco, caixas de multibanco, reservas de viagens ou hotel on-line, Cartões de Crédito."
+    },
 
     {
         "terminologia" : "onboard",
@@ -1331,13 +1405,23 @@
     },
 
     {
-        "terminologia" : "POO",
+        "terminologia" : "poo",
         "definition" : "Programação orientada e objetos. Método de programação que vem substituindo a antiga programação estruturada e que possui diversas vantagens. O Java é orientado a objetos. "
+    },
+
+    {
+        "terminologia" : "openid",
+        "definition" : "OpenID é um sistema de identificação desenvolvido por Brad Fitzpatrick do LiveJournal. Trata-se de uma rede distribuída na qual a identidade do utilizador é dada por uma URL ou XRI que pode ser verificada por qualquer servidor executando o protocolo."
     },
 
     {
         "terminologia" : "osi",
         "definition" : "OSI Open Systems Interconnection. É um modelo conceitual de protocolo com sete camadas definido pela ISO, para a compreensão e o projeto de redes de computadores. Trata−se de uma padronização internacional para facilitar a comunicação entre computadores de diferentes fabricantes."
+    },
+
+    {
+        "terminologia" : "orm",
+        "definition" : "Mapeamento objeto-relacional (ou ORM, do inglês: Object-relational mapping) é uma técnica de desenvolvimento utilizada para reduzir a impedância da programação orientada aos objetos utilizando bancos de dados relacionais. As tabelas do banco de dados são representadas através de classes e os registros de cada tabela são representados como instâncias das classes correspondentes."
     },
 
     {
@@ -1486,8 +1570,18 @@
     },
 
     {
+        "terminologia" : "rest",
+        "definition" : "Representational State Transfer (REST), em português Transferência Representacional de Estado, é um estilo de arquitetura de software que define um conjunto de restrições a serem usadas para a criação de web services (serviços Web). Os Web services que estão em conformidade com o estilo arquitetural REST, denominados Web services RESTful, fornecem interoperabilidade entre sistemas de computadores na Internet. Os Web services RESTful permitem que os sistemas solicitantes acessem e manipulem representações textuais de recursos da Web usando um conjunto uniforme e predefinido de operações sem estado."
+    },
+
+    {
         "terminologia" : "roi",
         "definition" : "Return On Investment ou Retorno em Investimento. Expressão muito utilizada para medir a relação custo benefício em sistemas de informação."
+    },
+    
+    {
+        "terminologia" : "rolap",
+        "definition" : "Relational On Line Analytical Processing - ROLAP deriva-se de OLAP, utiliza a tecnologia de banco de dados relacionais para armazenar seus dados, bem como suas consultas são também processadas pelo gerenciador do banco de dados relacional."
     },
 
     {
@@ -1758,6 +1852,12 @@
     {
         "terminologia" : "zip",
         "definition" : "Formato de compressão mais usado na Rede. Qualquer software baixado da Net vem comprimido neste formato e requer um programa, como o Winzip ou similar, para descomprimir."
+    },
+
+    {
+        "terminologia" : "",
+        "definition" : ""
     }
+
 
 ]
