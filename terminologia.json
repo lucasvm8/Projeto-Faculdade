@@ -126,6 +126,10 @@
     },
 
     {
+        "terminologia" : "apd",
+        "definition" : "All Paths Down (APD) é uma condição em que todos os caminhos para o dispositivo de armazenamento são perdidos ou o dispositivo de armazenamento é removido. O estado é causado porque a mudança acontece de maneira descontrolada e a pilha de armazenamento principal VMkernal não sabe quanto tempo vai durar a perda de acesso ao dispositivo."
+    },
+    {
         "terminologia" : "api",
         "definition" : "Application Program Interface. Um formato de mensagem, usado por um programa para comunicar−se com um outro programa que fornece serviços para ele. Por exemplo, através das APIs do Windows é possível comunicar−se com o sistema operacional para acessar alguns recursos disponibilizados por ele."
     },
@@ -231,7 +235,7 @@
     },
 
     {
-        "terminologia" : "b2b",
+        "terminologia" : "b2b", 
         "definition" : "Business−to−Busines. Transações comerciais conduzidas através de redes públicas ou privadas, incluindo transações públicas e privadas que usam a Internet como veículo de realização. Essas transações incluem transferências financeiras, leilões, distribuição de produtos e serviços, atividades de cadeias de suprimento e redes integradas de empresa. "
     },
 
@@ -406,6 +410,11 @@
     },
 
     {
+        "terminologia" : "btrfs",
+        "definition" : "Btrfs (B-tree file system) é um sistema de arquivos baseado no princípio cópia em gravação (do inglês copy-on-write (COW)), inicialmente desenvolvido pela Oracle Corporation para ser usado no Linux. O desenvolvimento do Btrfs começou em 2007, e em Agosto de 2014, o formato em disco do sistema de arquivos foi marcado como estável."
+    },
+
+    {
         "terminologia" : "byte",
         "definition" : "A unidade comum de armazenamento em computadores. É o átomo da informática. Composto por 8 bits, cada byte pode representar até 256 símbolos diferentes, como letras ou números."
     },
@@ -440,6 +449,11 @@
         "definition" : "Consiste num fio de cobre revestido e cercado por um segundo revestimento de cobre trançado. Tal proteção minimiza as interferências elétricas e magnéticas. É amplamente utilizado nas redes de televisão a cabo e também nas redes de computadores."
     },
 
+    {
+        "terminologia" : "cobol",
+        "definition" : "COBOL (sigla de COmmon Business Oriented Language) - Linguagem Comum Orientada para os Negócios é uma linguagem de programação orientada para o processamento de banco de dados comerciais.[1] É a linguagem de programação inteira mais usada, produto do Departamento de Defesa norte-americano sob a direção da contra-almirante Grace Murray Hopper."
+    },
+    
     {
         "terminologia" : "trançado",
         "definition" : "Também conhecido como UTP (Unshield Twisted Pair ou Par Trançado Não−blindado), é um cabo maleável, permeável a ruídos e interferências, mas fácil de instalar. É composto por pares de fios isolados uns dos outros e trançados juntos dentro de um revestimento. A trança proporciona uma blindagem ineficaz em ambientes de intensa radiação elétrica, mas que funciona perfeitamente na maioria dos casos."
@@ -513,6 +527,11 @@
     {
         "terminologia" : "chooser",
         "definition" : "Também conhecido como Seletor, é um acessório do sistema operacional que garante o acesso às impressoras e, quando o micro está ligado em rede, aos arquivos ou aos servidores disponíveis."
+    },
+
+    {
+        "terminologia" : "cifs",
+        "definition" : "Common Internet File System (CIFS) é um protocolo de sistema de arquivos de rede usado para fornecer acesso compartilhado a arquivos e impressoras entre máquinas na rede. Um aplicativo cliente CIFS pode ler, gravar, editar e até mesmo remover arquivos no servidor remoto. O cliente CIFS pode se comunicar com qualquer servidor configurado para receber uma solicitação do cliente CIFS."
     },
 
     {
@@ -666,6 +685,11 @@
     },
 
     {
+        "terminologia" : "das",
+        "definition" : " DAS (Direct Attached Storage) é quando possuímos um sistema operacional, é necessário que é o mesmo possua um local aonde seja armazenado os dados, para isso O DAS nada mais é do que discos locais do servidor. Esse  armazenamento pode ser externo ou ligado diretamente, como no caso de Gavetas Externas e Hd’s."
+    },
+
+    {
         "terminologia" : "dmbok",
         "definition" : "Data Management Body of Knowledge (DAMA DMBOK®) é um framework de boas práticas de gestão de dados, que tem como intuito transmitir a importância da gestão de dados."
     },
@@ -746,8 +770,18 @@
     },
 
     {
+        "terminologia" : "drs",
+        "definition" : "O Distributed Resource Scheduler (DRS) é um tipo de cluster VMware vSphere que fornece balanceamento de carga ao migrar VMs de um host ESXi muito carregado para outro host com recursos de computação suficientes, enquanto as VMs ainda estão em execução."
+    },
+
+    {
         "terminologia" : "dsl",
         "definition" : "Digital Subscriber Line ou Linha Digital de Assinatura. Refere−se aos vários tipos de assinatura, todos compatíveis com o cabeamento regular de cobre. Tipicamente, o DSL é usado para prover conexão contínua de alta velocidade com o provedor de acesso. Há vários tipos de DSL (ADSL, UADSL, etc.) e muitos deles permitem falar ao telefone e usar a Internet ao mesmo tempo."
+    },
+
+    {
+        "terminologia" : "dtd",
+        "definition" : "Uma definição de tipo de documento (inglês: document type definition, DTD) é um conjunto de declarações de marcação que definem um tipo de documento para uma linguagem de marcação da família da SGML (SGML, XML, HTML). Uma Definição de Tipo de Documento (DTD) define os blocos de construção lícitos de um documento XML. Define a estrutura do documento com uma lista de elementos lícitos e atributos. Uma DTD pode ser declarada em uma linha dentro de um documento XML ou na forma de uma referência externa."
     },
 
     {
@@ -775,6 +809,11 @@
         "definition" : "Tipo de chips de memória. A memória EDO (de Extended Data Out, ou Saída Estendida de Dados) proporciona um aumento de desempenho de 10% a 30% em comparação com a RAM tradicional."
     },
 
+    { 
+        "terminologia" : "ejbql",
+        "definition" : "EJB QL ou EJB-QL é uma linguagem de consulta de banco de dados portátil para Enterprise Java Beans. Ele foi usado em aplicativos Java EE. Comparado ao SQL, entretanto, é menos complexo, mas também menos poderoso."
+    },
+    
     {
         "terminologia" : "emoticons",
         "definition" : "Nome dado para aqueles pequenos sinais, como as carinhas sorridentes que são utilizados em larga escala nas mensagens de e−mail, chat e newsgroup da Internet. Auxilia as pessoas a expressarem seus sentimentos através da rede de forma rápida e padronizada em todo o planeta."
@@ -796,8 +835,18 @@
     },
 
     {
+        "terminologia" : "exec",
+        "definition" : "em COBOL a instrução EXEC (execute) identifica o programa ou procedimento catalogado ou in-stream que esta etapa de trabalho deve executar e para informar ao sistema como processar a etapa de trabalho. A instrução EXEC marca o início de cada etapa em um trabalho ou procedimento."
+    },
+
+    {
         "terminologia" : "ext2",
         "definition" : "Sistema de arquivos usado pela maioria das distribuições de Linux."
+    },
+
+    {
+        "terminologia" : "ext4",
+        "definition" : "ext4 ou fourth extended filesystem (em português: quarto sistema de arquivos estendido) é um sistema de arquivos de registro para Linux, desenvolvido para ser o sucessor do ext3."
     },
 
     {
@@ -805,9 +854,14 @@
         "definition" : "Termo que se refere a uma intranet que é particularmente acessível a determinados membros de fora. Enquanto uma intranet está baseada em um firewall e é acessível apenas a membros de uma mesma companhia ou organização, uma extranet fornece vários níveis de acessibilidade a membros de fora. Você pode acessar uma extranet apenas se você tiver um username e uma senha válidos e sua identidade determina quais partes da extranet você pode ver. As extranets estão se tornando meios populares de as parceiras de um mesmo nível de negócios trocarem informações. "
     },
 
+    {   
+        "terminologia" : "fcp",
+        "definition" : "O protocolo Fibre Channel (FCP) é o protocolo de interface SCSI que utiliza uma conexão Fibre Channel subjacente. Os padrões Fibre Channel definem um mecanismo de transferência de dados de alta velocidade que pode ser usado para conectar estações de trabalho, mainframes, supercomputadores, dispositivos de armazenamento e monitores. O FCP atende à necessidade de transferências muito rápidas de grandes volumes de informações e pode aliviar os fabricantes de sistemas da carga de suporte a uma variedade de canais e redes, pois fornece um padrão para rede, armazenamento e transferência de dados."
+    },
+
     {
         "terminologia" : "file",
-        "definition" : ""
+        "definition" : "arquivo"
     },
 
     {
@@ -818,6 +872,11 @@
     {
         "terminologia" : "dat",
         "definition" : "Fita magnética acondicionada em cartuchos pouco menores que uma fita cassete, destinada ao armazenamento de informações como cópia de segurança ou backup."
+    },
+
+    {
+        "terminologia" : "dd",
+        "definition" : "em COBOL Use a instrução DD (definição de dados) para descrever um conjunto de dados e especificar os recursos de entrada e saída necessários para o conjunto de dados."
     },
 
     {
@@ -853,6 +912,11 @@
     {
         "terminologia" : "freeware",
         "definition" : "Software distribuído gratuitamente."
+    },
+
+    {
+        "terminologia" : "ft",
+        "definition" : "O VMware vSphere Fault Tolerance (FT) fornece disponibilidade contínua para aplicativos (com até quatro CPUs virtuais) criando uma instância de sombra ao vivo de uma máquina virtual que espelha a máquina virtual primária. Se ocorrer uma interrupção do hardware, o vSphere FT dispara automaticamente o failover para eliminar o tempo de inatividade e evitar a perda de dados. Após o failover, o vSphere FT cria automaticamente uma nova máquina virtual secundária para fornecer proteção contínua para o aplicativo." 
     },
 
     {
@@ -918,6 +982,11 @@
     {
         "terminologia" : "gsm",
         "definition" : "Global System for Mobile Communications ou Sistema Global para Comunicação Móvel. Tecnologia criada a partir do TDMA. Um sistema europeu para comunicação sem fio. Lançada em 1991, esta tecnologia digital é o padrão adotado na Europa e Ásia, sendo utilizado em mais de 100 países. Transmite à freqüência de 9,6 a 14,4 kbps."
+    },
+
+    {
+        "terminologia" : "ha",
+        "definition" : "VMware® High Availability (HA) fornece custo fácil de usar alta disponibilidade efetiva para aplicativos em execução em máquinas virtuais. Em caso de falha do servidor, afetado máquinas virtuais são reiniciadas automaticamente em outro servidores de produção com capacidade sobressalente"
     },
 
     {
@@ -1026,6 +1095,11 @@
     },
 
     {
+        "terminologia" : "ilm",
+        "definition" : "Information lifecycle management (ILM) refere-se a estratégias para administrar sistemas de armazenamento em dispositivos de computação. ILM é a prática de aplicar certas políticas para o gerenciamento eficaz de informações. Essa prática teve como base a gestão da informação em papel ou outras formas físicas (microfilme, negativos, fotografias, gravações de áudio ou vídeo e outros ativos)."
+    },
+
+    {
         "terminologia" : "interface",
         "definition" : "É uma interface que usa símbolos (ícones) no lugar de comandos. Funciona como uma capa sobre o sistema operacional."
     },
@@ -1071,6 +1145,11 @@
     },
 
     {
+        "terminologia" : "iscsi",
+        "definition" : "iSCSI, sigla de Internet Small Computer System Interface, é um protocolo de transporte que transporta comandos SCSI entre um computador anfitrião (initiator) e um dispositivo de destino (target). É um protocolo típicamente usado no contexto de uma SAN, sigla de Storage Area Network (Rede de área de armazenamento) mas que, ao contrário do Fibre channel, não necessita de uma infraestrutura especializada e dedicada, podendo funcionar sobre uma rede IP convencional."
+    },
+
+    {
         "terminologia" : "isdn",
         "definition" : "Integrated Services Digital Networks ou Rede Digital de Serviços Integrados. Sistema telefônico digital que, mediante o uso de equipamentos especiais, mas utilizando a rede telefônica comum, permite enviar e receber voz e dados simultaneamente com muito mais velocidade, através de uma linha telefônica."
     },
@@ -1081,13 +1160,33 @@
     },
 
     {
+        "terminologia" : "iops",
+        "definition" : "IOPS (Input/Output Operations Per Second) ou Operações de entrada e saída por segundo é uma medida de desempenho comum usado para dispositivos de armazenamento de computador de referência, como unidades de disco rígido (HDD), drives de estado sólido (SSD), e redes de área de armazenamento (SAN). Como acontece com qualquer índice de referência, números de IOPS publicadas pelos fabricantes de dispositivos de armazenamento não garantem o desempenho das aplicações do mundo real."
+    },
+
+    {
         "terminologia" : "it",
         "definition" : "Information Technology ou Tecnologia de Informações. É o termo usado para a área da computação responsável pelo estudo, implementação e desenvolvimento de tecnologia usada para o processamento e armazenamento de informações. Como exemplo, os antigos CPDs (Central de Processamento de Dados) das grandes empresas hoje são responsabilidade da área de IT da empresa."
     },
 
     {
+        "terminologia" : "jcl",
+        "definition" : "Job Control Language, também conhecido pelo acrônimo JCL, é uma linguagem interpretada usada em mainframes da IBM para instruir o sistema operacional z/OS a executar um trabalho desejado. Ela informa onde achar a entrada adequada, como processá-la com o uso de um ou mais programas, e o que fazer com a saída resultante."
+    },
+
+    {
         "terminologia" : "java",
         "definition" : "Linguagem de programação desenvolvida e criada pela Sun Microsystems baseada totalmente na teoria da orientação a objetos, que permite o desenvolvimento de aplicações e applets Java. Gera um código que é intepretado na máquina do usuário através de uma Máquina Virtual Java, o que torna a linuagem multiplataforma, permitindo que ela seja executada em praticamente todas as máquinas e sistemas operacionais. O símbolo é o café."
+    },
+
+    {
+        "terminologia" : "jee",
+        "definition" : "O Java EE (Java Enterprise Edition) consiste de uma série de especificações bem detalhadas, dando uma receita de como deve ser implementado um software que faz cada um desses serviços de infraestrutura."
+    },
+
+    {
+        "terminologia" : "jes",
+        "definition" : "job entry subsystem (JES)  é o componente do sistema operacional que fornece funções suplementares de gerenciamento de tarefas, gerenciamento de dados e gerenciamento de tarefas, como agendamento, controle do fluxo de tarefas e leitura e gravação de fluxos de entrada e saída em dispositivos auxiliares de armazenamento, simultaneamente com a execução de tarefas."
     },
 
     {
@@ -1121,6 +1220,11 @@
     },
 
     {
+        "terminologia" : "job",
+        "definition" : "O cartão JOB é usado para identificar o trabalho ou a unidade de trabalho que o sistema operacional deve executar."
+    },
+
+    {
         "terminologia" : "jvm",
         "definition" : "Java Virtual Machine. Um interpretador de instruções produzidas em linguagem Java, que pode ser executado em diferentes sistemas operacionais e até navegadores da Internet. É o que garante a portabilidade do Java."
     },
@@ -1133,6 +1237,11 @@
     {
         "terminologia" : "kernel",
         "definition" : "O núcleo do sistema operacional. O kernel administra os recursos do computador dividindo−os entre os vários processos que o requisitam. Gerencia e controla o acesso ao sistema de arquivos, a memória, a tabela de processos e o acesso aos dispositivos e periféricos, entre outras atribuições. É a cabeça do sistema operacional."
+    },
+
+    {
+        "terminologia" : "kerberos",
+        "definition" : "Kerberos é um protocolo desenvolvido para fornecer poderosa autenticação em aplicações usuário/servidor, onde ele funciona como a terceira parte neste processo, oferendo autenticação ao usuário. Para garantir a segurança, ele usa criptografia de chave simétrica, com o DES."
     },
 
     {
@@ -1178,6 +1287,11 @@
     {
         "terminologia" : "login",
         "definition" : "O login é o nome que o usuário utiliza para acessar o servidor da rede. Para entrar na rede, é preciso entrar com a identificação (login), seguido de uma senha (password)."
+    },
+
+    {
+        "terminologia" : "lvm",
+        "definition" : "Logical Volume Manager (LVM), ou gerenciador de volume lógico (do português), é um método de alocação de espaço. O recurso está presente, nativamente, no próprio núcleo (kernel) do sistema Linux. Nele, o LVM tem como função gerar camadas de volume lógico entre sistema operacional e disco rígido, as quais se comportam como partições — e assim são interpretadas pelo Linux."
     },
 
     {
@@ -1316,6 +1430,11 @@
     },
 
     {
+        "terminologia" : "nas",
+        "definition" : "NAS (Network Attached Storage) O NAS possui um sistema operacional completo que funciona com o propósito principal de ser um servidor de arquivos ligado diretamente a rede. Esse ‘Storage’ por estar na rede poder ser compartilhado com diversos clientes, diferente do DAS.  A grande diferença entre NAS, DAS e SAN é ques servidores NAS utilizam transferência nível arquivo, enquanto DAS e SAN utilizam armazenamento em bloco, sendo assim a transferência é bem mais eficiente."
+    },
+
+    {
         "terminologia" : "netWare",
         "definition" : "Uma família de sistemas operacionais de rede da empresa Novell, que suporta clientes de diversos sistemas operacionais e diversos métodos de acesso a rede local como Ethernet e Token Ring. O NetWare é um dos gerenciadores de rede local mais usados por empresas de todo o mundo. "
     },
@@ -1327,7 +1446,7 @@
 
     {
         "terminologia" : "nfs",
-        "definition" : "Network File System. Sistema de compartilhamento de arquivos em rede criado pela Sun Microsystems para Unix."
+        "definition" : "Network File System (NFS) é um protocolo de sistema de arquivos distribuído originalmente desenvolvido pela Sun Microsystems (Sun) em 1984, permitindo que um usuário em um computador cliente acesse arquivos em uma rede de computador da mesma forma que o armazenamento local é acessado. O NFS, como muitos outros protocolos, baseia-se no sistema Open Network Computing Remote Procedure Call (ONC RPC). NFS é um padrão aberto definido em uma solicitação de comentários (RFC), permitindo que qualquer pessoa implemente o protocolo."
     },
 
     {
@@ -1343,6 +1462,16 @@
     {
         "terminologia" : "nuke",
         "definition" : "Apagar um arquivo, diretório ou o disco rígido inteiro. Interromper um processo em um sistema operacional, aplicação ou programa."
+    },
+
+    {
+        "terminologia" : "ntfs",
+        "definition" : "O NTFS (New Technology File System) é o sistema de arquivos padrão para o Windows NT e seus derivados. O NTFS possui uma estrutura que armazena as localizações de todos os arquivos e diretórios, incluindo os arquivos referentes ao próprio sistema de arquivos denominado MFT (Master File Table)."
+    },
+
+    {
+        "terminologia" : "ntlm",
+        "definition" : "O NTLM é um protocolo de autenticação desafio-resposta que utiliza três mensagens para autenticar um cliente em um ambiente orientado a conexão (connectionless é semelhante) e uma quarta mensagem adicional se integridade for desejada. Primeiro, o cliente estabelece um caminho de rede para o servidor e envia uma NEGOTIATE_MESSAGE informando suas capacidades. Em seguida, o servidor responde com uma CHALLENGE_MESSAGE que é usada para determinar a identidade do cliente. Finalmente, o cliente responde ao desafio com uma AUTHENTICATE_MESSAGE."
     },
 
     {
@@ -1465,6 +1594,11 @@
     },
 
     {
+        "terminologia" : "pdl",
+        "definition" : "Permanent Device Loss (PDL) é a remoção permanente de um dispositivo. Isso geralmente é causado por um administrador de armazenamento removendo um LUN no array de armazenamento, desmapeando ou excluindo-o. A pilha de armazenamento principal VMkernal sabe que o dispositivo não está voltando porque a matriz de armazenamento informa o host sobre um estado PDL por meio de uma resposta de comando SCSI. A remoção é considerada permanente quando todos os caminhos apresentam o erro PDL."
+    },
+
+    {
         "terminologia" : "peer",
         "definition" : "Ponto a ponto. Rede que dispensa o uso de servidor. As redes locais montadas sobre os protocolos do Windows, por exemplo, são redes peer−to−peer. É o contrário das aplicações cliente−servidor em que um computador (o servidor) permite que outras máquinas (clientes) usem seus serviços."
     },
@@ -1525,6 +1659,11 @@
     },
 
     {
+        "terminologia" : "proc",
+        "definition" : "A instrução PROC marca o início de um procedimento. A instrução PROC pode atribuir valores padrão a parâmetros simbólicos, se codificados, no procedimento."
+    },
+
+    {
         "terminologia" : "programa",
         "definition" : "Um conjunto de instruções para o computador."
     },
@@ -1562,6 +1701,16 @@
     {
         "terminologia" : "rack",
         "definition" : "Equipamento em forma de armário que armazena os diversos dispositivos de controle de rede (como hubs, patch panels e D.I.O.s) que são encaixados como gavetas."
+    },
+
+    {
+        "terminologia" : "raid",
+        "definition" : "RAID é um meio de se criar um subsistema de armazenamento composto por vários discos individuais, com a finalidade de ganhar segurança -- por meio da redundância de dados -- e desempenho. Popularmente, RAID seriam dois ou mais discos (por exemplo, HD ou disco rígido e até SSD) trabalhando simultaneamente para um mesmo fim, por exemplo, citando o exemplo de RAID 1 logo abaixo, serviria como um espelhamento simples, rápido e confiável entre dois discos, para se fazer uma cópia idêntica de um disco em outro."
+    },
+
+    {
+        "terminologia" : "rras",
+        "definition" : "Routing and Remote Access Service (RRAS) é um software de servidor e API da Microsoft que possibilita a criação de aplicativos para administrar as capacidades de roteamento e acesso remoto do sistema operacional para funcionar como um roteador de rede. Os desenvolvedores também podem usar o RRAS para implementar protocolos de roteamento."
     },
 
     {
@@ -1607,6 +1756,11 @@
     {
         "terminologia" : "ruído",
         "definition" : "Sinais estranhos e não−desejados numa rede. O excesso de ruído pode impedir uma rede de funcionar ou reduzir dramaticamente a sua velocidade."
+    },
+
+    {
+        "terminologia" : "san",
+        "definition" : "SAN (Storage Area Network) Por ser uma implementação cara, a mesma é utilizada em média e grandes empresas que desejam ter uma estrutura redundante, com alta performance e que possuam acesso mais rápido e eficientes aos discos que compoem esse Storage. Um dos grandes benefícios do SAN é a facilidade de comportatilhamento em vários servidores. Note aqui que a referência não é sobre acessos na rede como o NAS, mais sim em servidores, ou seja o SAN é conectado nos servidores" 
     },
 
     {
@@ -1705,6 +1859,11 @@
     },
 
     {
+        "terminologia" : "stp",
+        "definition" : "O Spanning Tree Protocol (STP), definido pelo padrão IEEE 802.1d, é um protocolo que funciona ao nível da camada 2 do modelo OSI e tem como como principal objetivo controlar ligações redundantes, garantindo o desempenho de uma rede."
+    },
+
+    {
         "terminologia" : "swap",
         "definition" : "Partição especial do disco rígido que os sistemas operacionais Unix utilizam em conjunto com a memória física para formar a memória virtual. Assim, os programas conseguem ter acesso a uma quantidade maior de memória."
     },
@@ -1715,6 +1874,11 @@
     },
 
     {
+        "terminologia" : "swt",
+        "definition" : "Standard Widget Toolkit (SWT) é um widget toolkit para uso com a plataforma Java. Foi originalmente desenvolvido pela IBM e hoje é mantido pela Eclipse Foundation em conjunto com o IDE Eclipse. É uma alternativa para o Abstract Window Toolkit (AWT) e o Swing, fornecidos pela Sun Microsystems como parte do Java Platform, Standard Edition."
+    },
+
+    {
         "terminologia" : "sysop",
         "definition" : "System Operator. Alguém responsável pela manutenção e operação de um sistema de computadores, geralmente um BBS ou de um provedor de acesso à Internet."
     },
@@ -1722,6 +1886,11 @@
     {
         "terminologia" : "tag",
         "definition" : "Um comando inserido em um documento que especifica como o documento ou uma parte dele deve ser formatado. Tags são utilizadas no código html de uma página para indicar ao browser como a mesma será visualizada na tela. As tags vêm sempre entre sinais de < e >. A cada nova versão de browsers, novas tags são acrescentadas ao código de programação html pelo World Wide Web Consortium."
+    },
+
+    {
+        "terminologia" : "throughput",
+        "definition" : "Em redes de comunicação, como Ethernet ou packet radio, throughput, throughput de rede ou simplesmente taxa de transferência é a quantidade de dados transferidos de um lugar a outro, ou a quantidade de dados processados em um determinado espaço de tempo. Pode-se usar o termo throughput para referir-se a quantidade de dados transferidos em discos rígidos ou em uma rede, por exemplo; tendo como unidades básicas de medidas o Kbps, o Mbps e o Gbps."
     },
 
     {
@@ -1835,6 +2004,11 @@
     },
 
     {
+        "terminologia" : "xfs",
+        "definition" : "O XFS é um sistema de arquivos com registro de 64 bits de alto desempenho criado pela Silicon Graphics, Inc (SGI) em 1993. O XFS é excelente na execução de operações paralelas de entrada/saída (E/S) devido ao seu design, que é baseado em grupos de alocação (um tipo de subdivisão dos volumes físicos nos quais o XFS é usado - também abreviado para AGs). Por causa disso, o XFS permite extrema escalabilidade de threads de E/S, largura de banda do sistema de arquivos e tamanho dos arquivos e do sistema de arquivos em si, ao abranger vários dispositivos de armazenamento físico."
+    },
+
+    {
         "terminologia" : "xml",
         "definition" : "Extensible Markup Language. É uma linguagem universal para permitir a troca de informações de forma estruturada através da Internet. Permite que os programadores transportem dados de um servidor para outro da rede de forma transparente e organizada."
     },
@@ -1842,6 +2016,11 @@
     {
         "terminologia" : "xms",
         "definition" : "Extended Memory Specification. Padrão que permite ao DOS utilizar a memória além dos 640 Kbytes."
+    },
+
+    {
+        "terminologia" : "xslt",
+        "definition" : "XSL Transformations, ou XSLT (eXtensible Stylesheet Language for Transformation - Linguagem de Folhas de estilo Extensível para Transformações), é uma linguagem de marcação XML usada para criar documentos XSL que, por sua vez, definem a apresentação dos documentos XML nos browsers e outros aplicativos que os suportem. XSLT atua como as folhas de estilos CSS: apenas determina como o browser deve apresentar o documento XML ao qual ele está associado ou anexado (de uma forma bem parecida com a usada para associar uma folha de estilos CSS a um documento (X)HTML). O browser recebe o documento XML original, na íntegra, como ele foi criado e o apresenta como o documento XSL determina."
     },
 
     {
@@ -1855,9 +2034,199 @@
     },
 
     {
-        "terminologia" : "",
-        "definition" : ""
-    }
+        "terminologia" : "vtoc",
+        "definition" : "z / OS® usa um catálogo e um índice de volume (VTOC) em cada DASD para gerenciar o armazenamento e o posicionamento de conjuntos de dados."
+    },
 
+    {
+        "terminologia" : "srm",
+        "definition" : "Security Resource Manager (SRM)"
+    },
+
+    {
+        "terminologia" : "wlm",
+        "definition" : "A seção de informações do sistema representa dados exclusivos para cada sistema que está sendo manipulado pelo gerenciador de sysplex WLM."
+    },
+    
+    {
+        "terminologia" : "tso",
+        "definition" : "A opção / Time Sharing Option/Extensions (TSO / E) permite que os usuários criem uma sessão interativa com o sistema z / OS®. O TSO fornece um recurso de logon de usuário único e uma interface de prompt de comando básica para z / OS."
+    },
+
+    {
+        "terminologia" : "cics",
+        "definition" : "IBM CICS é uma família de servidores de aplicativos de idioma misto que fornece gerenciamento de transações online e conectividade para aplicativos em sistemas de mainframe IBM em z / OS ez / VSE. Os produtos da família CICS são projetados como middleware e suportam processamento de transações online rápido e de alto volume."
+    },
+
+    {
+        "terminologia" : "racf",
+        "definition" : "RACF, [pronuncia-se Rack-Eff], abreviação de Resource Access Control Facility, é um produto de software IBM. É um sistema de segurança que fornece controle de acesso e funcionalidade de auditoria para os sistemas operacionais z / OS ez / VM. O RACF foi lançado em 1976."
+    },
+
+    {
+        "terminologia" : "sms",
+        "definition" : "O Standard Modular System é um sistema de placas de circuito transistorizado padrão e racks de montagem desenvolvido pela IBM no final dos anos 1950, originalmente para o IBM 7030 Stretch. Eles foram usados ​​nos computadores de segunda geração, periféricos, série 7000, série 1400 e 1620 da IBM"
+    },
+
+    {
+        "terminologia" : "smp",
+        "definition" : "SMP / E (System Modification Program / Extended) é uma ferramenta projetada para gerenciar a instalação de produtos de software no sistema z / OS e para rastrear as modificações desses produtos."
+    },
+
+    {
+        "terminologia" : "hsrp",
+        "definition" : "Em redes de computadores, o Hot Standby Router Protocol (HSRP) é um protocolo de redundância proprietário da Cisco para estabelecer um gateway padrão tolerante a falhas. A versão 1 do protocolo foi descrita na RFC 2281 em 1998. A versão 2 do protocolo inclui melhorias e suporta IPv6, mas não há nenhuma RFC correspondente publicada para esta versão."
+    },
+    
+    {
+        "terminologia" : "vrrp",
+        "definition" : "O Virtual Router Redundancy Protocol (VRRP) é um protocolo de rede de computador que fornece a atribuição automática de roteadores de Protocolo de Internet (IP) disponíveis aos hosts participantes. Isso aumenta a disponibilidade e a confiabilidade dos caminhos de roteamento por meio de seleções automáticas de gateway padrão em uma sub-rede IP."
+    },
+
+    {
+        "terminologia" : "eigrp",
+        "definition" : "O EIGRP (Enhanced Interior Gateway Routing Protocol) é um protocolo avançado de roteamento por vetor da distância, desenvolvido primeiramente como um protocolo proprietário da Cisco. Usando o algoritmo de atualização por difusão, DUAL (Diffusing Update ALgorithm), o EIGRP apresenta características tanto de protocolos de roteamento do tipo vetor de distância (como o RIP) quanto de protocolos de roteamento do tipo estado de link (como o OSPF)."
+    },
+
+    {
+        "terminologia" : "ospf",
+        "definition" : "OSPF é um protocolo de roteamento do tipo link-state, que envia avisos sobre o estado da conexão (link-state advertisements, LSA) a todos os outros roteadores em uma mesma área hierárquica. Informações sobre interfaces ligadas, métrica usada e outras variáveis são incluídas nas LSAs.  Ao mesmo tempo em que o roteador OSPF acumula informações sobre o estado do link, ele usa o algoritmo SPF para calcular a menor rota para cada nó."
+    },
+
+    {
+        "terminologia" : "bgp",
+        "definition" : "A função primária de um sistema BGP é trocar informação de acesso à rede, inclusive informação sobre a lista das trajetórias dos ASs, com outros sistemas BGP. Esta informação pode ser usada para construir um gráfico da conectividade dos ASs a partir do qual laços de roteamento podem ser detectados e reforçadas as políticas de decisão com outros ASs."
+    },
+
+    {
+        "terminologia" : "rip",
+        "definition" : "O RIP (Routing Information Protocol) é um padrão para troca de informações entre os gateways e hosts de roteamento. Atualmente existem muitos protocolos de roteamento utilizados para toda a rede. A rede mundial de computadores é organizada como um conjunto de 'sistemas autônomos'. Cada sistema autônomo tem a sua própria tecnologia de roteamento, o que pode bem ser diferente para diferentes sistemas autônomos."
+    },
+
+    {
+        "terminologia" : "qos",
+        "definition" : "O QoS (Quality of Service, em inglês) é uma tecnologia presente em roteadores para garantir ao usuário maior controle sobre sua rede Wi-Fi. Por meio da ferramenta, é possível determinar quais dispositivos e serviços terão maior prioridade de conexão. "
+    },
+
+    {
+        "terminologia" : "cos",
+        "definition" : "O COS (Class of Service) é uma implementação na camada de enlace – Ethernet, para quase todos os tipos de rotulação de pacotes para o suporte ao QoS no LAN. O CoS é definido pelo padrão IEEE 802.1p e usa 3 bits no cabeçalho do quadro Ethernet para definir uma classe de tráfego, permitindo oito classes ser definidas, mas com a classe “0” reservada para representar um padrão de prioridade de “melhor esforço”. "
+    },
+
+    {
+        "terminologia" : "wireshark",
+        "definition" : "O Wireshark (anteriormente conhecido como Ethereal) é um programa que analisa o tráfego de rede, e o organiza por protocolos."
+    },
+
+    {
+        "terminologia" : "tcpdump",
+        "definition" : "O tcpdump é uma ferramenta utilizada para monitorar os pacotes trafegados numa rede de computadores. Ela mostra os cabeçalhos dos pacotes que passam pela interface de rede."
+    },
+
+    {
+        "terminologia" : "netflow",
+        "definition" : "NetFlow é um recurso que foi introduzido nos roteadores Cisco por volta de 1996 que fornece a capacidade de coletar o tráfego de rede IP conforme ele entra ou sai de uma interface."
+    },
+
+    {
+        "terminologia" : "sflow",
+        "definition" : "sFlow, abreviação de 'sampled flow', é um padrão da indústria para exportação de pacotes na camada 2 do modelo OSI. Ele fornece um meio de exportar pacotes truncados, junto com contadores de interface para fins de monitoramento de rede."
+    },
+
+    {
+        "terminologia" : "sdn",
+        "definition" : "SDN(Software-defined networking), ou Redes definidas por software, é a separação física do plano de controle de rede do plano de encaminhamento, e também onde o plano de controle controla vários dispositivos."
+    },
+    
+
+    {
+        "terminologia" : "ddos",
+        "definition" : "O ataque DDoS (Denial-of-service attack) envia múltiplas solicitações para o recurso Web invadido com o objetivo de exceder a capacidade que o site tem de lidar com diversas solicitações, impedindo seu funcionamento correto. Entre os alvos comuns de ataques DDoS estão: Sites de compras virtuais."
+    },
+
+    {
+        "terminologia" : "dos",
+        "definition" : "Um ataque de negação de serviço (DoS) é um ataque destinado a desligar uma máquina ou rede, tornando-a inacessível aos usuários pretendidos. Os ataques DoS conseguem isso inundando o alvo com tráfego ou enviando informações que desencadeiam um acidente."
+    },
+    
+    {
+        "terminologia" : "spoofing",
+        "definition" : "No contexto de redes de computadores, IP spoofing é um ataque que consiste em mascarar (spoof) pacotes IP utilizando endereços de remetentes falsificados. "
+    },
+
+    {
+        "terminologia" : "hijacking",
+        "definition" : "Em ciência da computação, session hijacking (em português sequestro de sessão, algumas vezes também conhecido como sequestro de cookie) é a exploração de uma sessão de computador válida, às vezes também chamada de uma chave de sessão - para obter acesso não autorizado a informações ou serviços em um sistema de computador"
+    },
+
+    {
+        "terminologia" : "overflow",
+        "definition" : "Um buffer overflow (ou transbordamento de dados) acontece quando um programa informático excede o uso de memória assignado a ele pelo sistema operacional, passando então a escrever no setor de memória contíguo. Essas falhas são utilizadas por cibercriminosos para executar códigos arbitrários em um computador, o que possibilita muitas vezes aos atacantes controlar o PC"
+    },
+
+    {
+        "terminologia" : "injection",
+        "definition" : "O SQL Injection é uma técnica de ataque baseada na manipulação do código SQL, que é a linguagem utilizada para troca de informações entre aplicativos e bancos de dados relacionais."
+    },
+
+    {
+        "terminologia" : "xss",
+        "definition" : "Cross-site scripting (XSS) é um tipo de vulnerabilidade do sistema de segurança de um computador, encontrado normalmente em aplicações web que ativam ataques maliciosos ao injetarem client-side script dentro das páginas web vistas por outros usuários."
+    },
+
+    {
+        "terminologia" : "phishing",
+        "definition" : "Spear phishing é um golpe proveniente de e-mail ou comunicação eletrônica, direcionado a um indivíduo, organização ou empresa específicos. Embora tenha a intenção de roubar dados para fins mal-intencionados, os criminosos virtuais também podem tentar instalar malware no computador do usuário."
+    },
+    
+    {
+        "terminologia" : "apt",
+        "definition" : "Uma advanced persistent threat (APT) é um ator de ameaça furtivo, normalmente um estado-nação ou grupo patrocinado por um estado, que obtém acesso não autorizado a uma rede de computadores e permanece sem ser detectado por um longo período."
+    },
+
+    {
+        "terminologia" : "worms",
+        "definition" : "O worm é um tipo de malware mais perigoso que um vírus comum, pois sua propagação é rápida e ocorre sem controle da vítima. Assim que ele contamina um computador, o programa malicioso cria cópias de si mesmo em diferentes locais do sistema e se espalha para outras máquinas, seja por meio de Internet, mensagens, conexões locais, dispositivos USB ou arquivos."
+    },
+
+    {
+        "terminologia" : "adware",
+        "definition" : "Adware (do inglês advertisement= 'anúncio', e software = 'programa') é qualquer programa de computador que executa automaticamente e exibe uma grande quantidade de anúncios sem a permissão do usuário.[1] As funções do adware servem para analisar os locais de Internet que o usuário visita e lhe apresentar publicidade pertinente aos tipos de bens ou serviços apresentados lá. "
+    },
+
+    {
+        "terminologia" : "trojan",
+        "definition" : "Trojan, também conhecido como cavalo de Troia (em inglês Trojan horse), é um malware que executa ações em um computador criando uma porta para uma possível invasão sem a autorização do usuário. Trata-se de um programa que tem um pacote de vírus e na maioria das vezes é utilizado para se conseguir informações de outros computadores ou executar operações indevidas em diversos dispositivos. "
+    },
+
+    {
+        "terminologia" : "spyware",
+        "definition" : "Spyware, como indica o termo em inglês, é um software espião que costuma ser instalado no celular ou no computador sem o consentimento do usuário. Uma vez no computador, o programa monitora as atividades online, o histórico e os dados pessoais, para repassar as informações para terceiros."
+    },
+
+    {
+        "terminologia" : "ransoware",
+        "definition" : "Ransomware é um software de extorsão que pode bloquear o seu computador e depois exigir um resgate para desbloqueá-lo."
+    },
+
+    {
+        "terminologia" : "gdpr",
+        "definition" : "O General Data Protection Regulation (GDPR) ou Regulamento Geral de Proteção de Dados 2016/679 é um regulamento da legislação da UE sobre proteção de dados e privacidade na União Europeia e no Espaço Econômico Europeu. Também aborda a transferência de dados pessoais fora das áreas da UE e do EEE"
+    },
+
+    {
+        "terminologia" : "lgpd",
+        "definition" : "A Lei Geral de Proteção de Dados Pessoais (LGPD ou LGPDP), Lei nº 13.709/2018, é a legislação brasileira que regula as atividades de tratamento de dados pessoais e que também altera os artigos 7º e 16 do Marco Civil da Internet."
+    },
+
+    {
+        "terminologia" : "cnm",
+        "definition" : "Dispõe sobre a política de segurança cibernética e sobre os requisitos para a contratação de serviços de processamento e armazenamento de dados e de computação em nuvem a serem observados pelas instituições financeiras e demais instituições autorizadas a funcionar pelo Banco Central do Brasil."
+    },
+
+    {
+        "terminologia" : "comutação",
+        "definition" : "Os dispositivos de interconexão têm duas áreas de atuação nas redes telemáticas. Em um segundo nível estariam os switches , que são responsáveis ​​pela interconexão de equipamentos dentro de uma mesma rede, ou o que é o mesmo, são os dispositivos que, junto com a fiação, constituem as redes locais ou LAN."
+    }
 
 ]
